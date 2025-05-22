@@ -1,0 +1,20 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "mission": "Misión",
+    "impact": "Impacto",
+    "contact": "Contacto",
+    "gallery": "Galería",
+     "donate": "Donar" 
+  },
+  "hero": {
+    "title": "Transforming Lives, Together.",
+    "subtitle": "Every contribution makes a difference. Join our cause and help us build a better future.",
+    "donateButton": "Donate Now"
+  },
+  "aboutUs": {
+    "title": "Acerca de Nosotros"
+  }
+
+}

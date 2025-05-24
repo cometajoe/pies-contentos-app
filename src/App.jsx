@@ -16,7 +16,7 @@ function App() {
       <Navbar /> {/* Usa el nuevo componente Navbar aquí */}
       <main>
         {/* Aquí es donde irán tus secciones */}
-        <div className="mx-auto p-4">
+        <div className="mx-auto">
          
           <Hero />
           <Mission /> 

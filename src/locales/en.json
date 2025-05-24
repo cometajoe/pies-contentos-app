@@ -9,12 +9,25 @@
     "donate": "Donate"
   },
   "hero": {
-    "title": "Transformando Vidas, Juntos.",
-    "subtitle": "Cada contribución marca una diferencia. Únete a nuestra causa y ayúdanos a construir un futuro mejor.",
-    "donateButton": "Dona Ahora"
+    "title": "Transforming Lives, Together.",
+    "subtitle": "Every contribution makes a difference. Join our cause and help us build a better future.",
+    "donateButton": "Donate Now"
   },
   "aboutUs": {
-    "title": "About Us"
+    "title": "Acerca de Nosotros"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "statement": "Our mission is to empower communities through education, access to vital resources, and the promotion of a sustainable future. We believe in the potential of every individual to create positive and lasting change."
+  }, "footer": {
+    "shortBlurb": "Dedicated to creating a positive impact and a sustainable future for everyone.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "copyright": "© 2025 NGO Name. All rights reserved."
+  }, "partners": {
+    "title": "Our Partners",
+    "subtitle": "We are deeply grateful to these organizations for their invaluable support and collaboration in our mission."
   }
   
 }

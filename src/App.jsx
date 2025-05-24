@@ -1,9 +1,12 @@
 // src/App.jsx
 
 
+import Footer from './components/Footer';
 import Navbar from './components/Navbar'; // Asegúrate de que el componente Navbar esté en la ruta correcta
 
 import Hero from './sections/Hero'; // Asegúrate de que el componente Hero esté en la ruta correcta
+import Mission from './sections/Mission'; // Asegúrate de que el componente Mission esté en la ruta correcta
+import Partners from './sections/Partners';
 
 function App() {
 
@@ -15,12 +18,15 @@ function App() {
         <div className="mx-auto p-4">
          
           <Hero />
+          <Mission /> 
+           <Partners />
           {/* <AboutUs /> */}
           {/* <Mission /> */}
           {/* <Impact /> */}
           {/* <PhotoGallery /> */}
           {/* <ContactForm /> */}
           {/* <SocialMediaLinks /> */}
+          <Footer />
         </div>
       </main>
 

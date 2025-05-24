@@ -9,12 +9,26 @@
      "donate": "Donar" 
   },
   "hero": {
-    "title": "Transforming Lives, Together.",
-    "subtitle": "Every contribution makes a difference. Join our cause and help us build a better future.",
-    "donateButton": "Donate Now"
+    "title": "Transformando Vidas, Juntos.",
+    "subtitle": "Cada contribución marca una diferencia. Únete a nuestra causa y ayúdanos a construir un futuro mejor.",
+    "donateButton": "Dona Ahora"
   },
   "aboutUs": {
-    "title": "Acerca de Nosotros"
+    "title": "About Us"
+  },
+  "mission": {
+    "title": "Nuestra Misión",
+    "statement": "Nuestra misión es empoderar a las comunidades a través de la educación, el acceso a recursos vitales y la promoción de un futuro sostenible. Creemos en el potencial de cada individuo para crear un cambio positivo y duradero."
+  },
+  "footer": {
+    "shortBlurb": "Dedicados a crear un impacto positivo y un futuro sostenible para todos.",
+    "quickLinks": "Enlaces Rápidos",
+    "contactUs": "Contáctanos",
+    "followUs": "Síguenos en Redes",
+    "copyright": "© 2025 ONG Nombre. Todos los derechos reservados."
+  },"partners": {
+    "title": "Nuestros Socios",
+    "subtitle": "Agradecemos profundamente a estas organizaciones por su invaluable apoyo y colaboración en nuestra misión."
   }
 
 }

@@ -10,11 +10,15 @@
   },
   "hero": {
     "title": "Transformando Vidas, Juntos.",
-    "subtitle": "Cada contribución marca una diferencia. Únete a nuestra causa y ayúdanos a construir un futuro mejor.",
+    "subtitle": "Cada paso cuenta.",
+    "title1": "En Pies Contentos, transformamos vidas y",
+    "title2": "construimos un futuro brillante.",
     "donateButton": "Dona Ahora"
   },
-  "aboutUs": {
-    "title": "About Us"
+ "about": {
+    "title": "Quiénes Somos",
+    "description": "Pies Contentos es una organización sin fines de lucro que se fundó en Chihuahua, México. Nuestro objetivo principal es brindar apoyo a niños de entre 6 y 12 años que se encuentran en situación vulnerable.",
+    "readMore": "Leer más"
   },
   "mission": {
     "title": "Nuestra Misión",

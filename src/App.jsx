@@ -7,7 +7,8 @@ import Navbar from './components/Navbar'; // Asegúrate de que el componente Nav
 import Hero from './sections/Hero'; // Asegúrate de que el componente Hero esté en la ruta correcta
 import Mission from './sections/Mission'; // Asegúrate de que el componente Mission esté en la ruta correcta
 import Partners from './sections/Partners';
-
+import AboutUs from './sections/AboutUs'; // Asegúrate de que el componente AboutUs esté en la ruta correcta
+import PhotoGallerySection from './sections/PhotoGallery';
 function App() {
 
   return (
@@ -20,7 +21,8 @@ function App() {
           <Hero />
           <Mission /> 
            <Partners />
-          {/* <AboutUs /> */}
+          <AboutUs />
+          <PhotoGallerySection />
           {/* <Mission /> */}
           {/* <Impact /> */}
           {/* <PhotoGallery /> */}

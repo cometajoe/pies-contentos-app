@@ -110,37 +110,42 @@ const Hero = () => {
         animate="visible"
         variants={containerVariants}
       >
-        {/* Badge superior opcional */}
-        <motion.div
-          className="inline-flex items-center px-4 py-2 mb-8 text-sm font-medium text-sky-100 bg-sky-600/30 backdrop-blur-sm border border-sky-400/30 rounded-full"
-          variants={subtitleVariants}
-        >
-          <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
-          </svg>
-          {t('hero.subtitle') || 'Transformando vidas desde 2015'}
-        </motion.div>
+       
 
         {/* Título principal */}
         <motion.h1
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 leading-tight text-white"
+          className="text-2xl sm:text-3xl md:text-6xl  font-bold mb-6 leading-tight text-white"
           variants={titleVariants}
         >
           <span className="block">
-            {t('hero.title1') || 'Cada paso'}
+            {t('hero.title1') || 'En Pies Contentos, transformamos vidas y'}
           </span>
           <span className="block bg-gradient-to-r from-sky-400 to-sky-200 bg-clip-text text-transparent">
-            {t('hero.title2') || 'cuenta'}
+            {t('hero.title2') || 'construimos un futuro brillante.'}
           </span>
         </motion.h1>
 
         {/* Subtítulo */}
-        <motion.p
+        {/* <motion.p
           className="text-lg sm:text-xl md:text-2xl max-w-4xl mx-auto mb-12 font-light text-slate-200 leading-relaxed"
           variants={subtitleVariants}
         >
           {t('hero.subtitle') || 'Brindamos zapatos y esperanza a niños en situación de vulnerabilidad, porque creemos que cada niño merece caminar hacia un futuro mejor.'}
-        </motion.p>
+        </motion.p> */}
+         {/* Badge superior opcional */}
+        <motion.div
+          className="inline-flex items-center px-4 py-2 mb-8 text-sm font-medium text-sky-100 bg-sky-600/30 backdrop-blur-sm border border-sky-400/30 rounded-full"
+          variants={subtitleVariants}
+        >
+          <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 32 32">
+  <path d="M22.2,6.9c-1.3-1.3-3.4-1.3-4.7,0s-1.3,3.4,0,4.7s3.4,1.3,4.7,0S23.5,8.1,22.2,6.9z"/>
+  <path d="M16.1,2.3c-1.3-1.3-3.4-1.3-4.7,0s-1.3,3.4,0,4.7s3.4,1.3,4.7,0S17.4,3.6,16.1,2.3z"/>
+  <path d="M9.9,4.2c-1.3-1.3-3.4-1.3-4.7,0s-1.3,3.4,0,4.7s3.4,1.3,4.7,0S11.2,5.5,9.9,4.2z"/>
+  <path d="M5.2,10.4c-1.3-1.3-3.4-1.3-4.7,0s-1.3,3.4,0,4.7s3.4,1.3,4.7,0S6.5,11.7,5.2,10.4z"/>
+  <path d="M23,17.1c-2.3,2.3-5.2,4-8.3,4.7c-5.8,1.3-11.6-1.5-14.2-6.7c-0.4-0.8-0.2-1.8,0.6-2.2c0.8-0.4,1.8-0.2,2.2,0.6c1.9,3.9,6.2,5.8,10.5,4.9c2.4-0.5,4.6-2,6.4-3.9c0.6-0.6,1.6-0.6,2.2,0C23.6,15.5,23.6,16.5,23,17.1z"/>
+</svg>
+          { t('hero.subtitle') }
+        </motion.div>
 
         {/* Botones de acción */}
         <motion.div 

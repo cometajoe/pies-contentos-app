@@ -10,11 +10,15 @@
   },
   "hero": {
     "title": "Transforming Lives, Together.",
-    "subtitle": "Every contribution makes a difference. Join our cause and help us build a better future.",
+    "subtitle": "Every step counts.",
+    "title1": "At Pies Contentos, we transform lives and",
+    "title2": "build a bright future.",
     "donateButton": "Donate Now"
   },
-  "aboutUs": {
-    "title": "Acerca de Nosotros"
+  "about": {
+    "title": "Who We Are",
+    "description": "Pies Contentos is a non-profit organization founded in Chihuahua, Mexico. Our main objective is to provide support to children between 6 and 12 years of age who are in a vulnerable situation.",
+    "readMore": "Read More"
   },
   "mission": {
     "title": "Our Mission",

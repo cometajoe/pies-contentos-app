@@ -19,9 +19,10 @@ function App() {
         <div className="mx-auto">
          
           <Hero />
+           <AboutUs />
           <Mission /> 
            <Partners />
-          <AboutUs />
+         
           <PhotoGallerySection />
           {/* <Mission /> */}
           {/* <Impact /> */}

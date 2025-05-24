@@ -13,7 +13,7 @@ const AboutUs = () => {
   };
 
   return (
-    <section id="about" ref={ref} className="bg-slate-900 text-white py-24 sm:py-32">
+    <section id="about" ref={ref} className="bg-gradient-to-b from-sky-50 to-sky-200 text-white py-24 sm:py-32">
       <motion.div
         className="container mx-auto px-6 text-center max-w-4xl"
         variants={{
@@ -25,7 +25,7 @@ const AboutUs = () => {
       >
         {/* Título de la sección */}
         <motion.h2 
-          className="text-4xl sm:text-5xl font-bold font-gochi-hand text-sky-400 mb-8"
+          className="text-4xl sm:text-5xl font-bold font-gochi-hand text-slate-800 mb-8"
           variants={variants}
         >
           {t('about.title')}
@@ -33,7 +33,7 @@ const AboutUs = () => {
 
         {/* Descripción */}
         <motion.p 
-          className="text-xl sm:text-2xl text-slate-300 leading-relaxed"
+          className="text-xl sm:text-2xl text-slate-600 leading-relaxed"
           variants={variants}
         >
           {t('about.description')}

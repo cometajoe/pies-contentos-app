@@ -8,7 +8,8 @@ import Hero from './sections/Hero'; // Asegúrate de que el componente Hero est�
 import Mission from './sections/Mission'; // Asegúrate de que el componente Mission esté en la ruta correcta
 import Partners from './sections/Partners';
 import AboutUs from './sections/AboutUs'; // Asegúrate de que el componente AboutUs esté en la ruta correcta
-import PhotoGallerySection from './sections/PhotoGallery';
+import Volunteers from './sections/Volunteers';
+
 function App() {
 
   return (
@@ -23,7 +24,8 @@ function App() {
           <Mission /> 
            <Partners />
          
-          <PhotoGallerySection />
+         <Volunteers />
+
           {/* <Mission /> */}
           {/* <Impact /> */}
           {/* <PhotoGallery /> */}

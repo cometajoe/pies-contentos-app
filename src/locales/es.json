@@ -33,6 +33,10 @@
   },"partners": {
     "title": "Nuestros Socios",
     "subtitle": "Agradecemos profundamente a estas organizaciones por su invaluable apoyo y colaboración en nuestra misión."
+  },"volunteers": {
+    "title": "Tu Tiempo, Su Futuro",
+    "subtitle": "Los voluntarios son el corazón de nuestra organización. Cada hora que dedicas nos ayuda a crear un impacto real y duradero en la vida de un niño.",
+    "ctaButton": "Quiero ser Voluntario"
   }
 
 }

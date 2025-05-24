@@ -32,6 +32,11 @@
   }, "partners": {
     "title": "Our Partners",
     "subtitle": "We are deeply grateful to these organizations for their invaluable support and collaboration in our mission."
+  },  
+  "volunteers": {
+    "title": "Your Time, Their Future",
+    "subtitle": "Volunteers are the heart of our organization. Every hour you dedicate helps us create a real and lasting impact in a child's life.",
+    "ctaButton": "I Want to Volunteer"
   }
   
 }

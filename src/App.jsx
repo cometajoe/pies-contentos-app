@@ -13,7 +13,7 @@ function App() {
       {/* Todas las rutas dentro de 'Layout' compartirán el Navbar y Footer */}
       <Route path="/" element={<Layout />}>
         {/* La ruta 'index' es la página por defecto para el path del padre ('/') */}
-        <Route index element={<HomePage />} />
+        <Route path='/' element={<HomePage />} />
         
         {/* Define la nueva ruta para la página de contacto */}
         <Route path="contact-us" element={<ContactPage />} />

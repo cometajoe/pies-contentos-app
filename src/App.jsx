@@ -1,42 +1,27 @@
 // src/App.jsx
 
-
-import Footer from './components/Footer';
-import Navbar from './components/Navbar'; // Asegúrate de que el componente Navbar esté en la ruta correcta
-
-import Hero from './sections/Hero'; // Asegúrate de que el componente Hero esté en la ruta correcta
-import Mission from './sections/Mission'; // Asegúrate de que el componente Mission esté en la ruta correcta
-import Partners from './sections/Partners';
-import AboutUs from './sections/AboutUs'; // Asegúrate de que el componente AboutUs esté en la ruta correcta
-import Volunteers from './sections/Volunteers';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import HomePage from './pages/HomePage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
 
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar /> {/* Usa el nuevo componente Navbar aquí */}
-      <main>
-        {/* Aquí es donde irán tus secciones */}
-        <div className="mx-auto">
-         
-          <Hero />
-           <AboutUs />
-          <Mission /> 
-           <Partners />
-         
-         <Volunteers />
-
-          {/* <Mission /> */}
-          {/* <Impact /> */}
-          {/* <PhotoGallery /> */}
-          {/* <ContactForm /> */}
-          {/* <SocialMediaLinks /> */}
-          <Footer />
-        </div>
-      </main>
-
-      {/* <Footer /> */}
-    </div>
+    <Routes>
+      {/* Todas las rutas dentro de 'Layout' compartirán el Navbar y Footer */}
+      <Route path="/" element={<Layout />}>
+        {/* La ruta 'index' es la página por defecto para el path del padre ('/') */}
+        <Route index element={<HomePage />} />
+        
+        {/* Define la nueva ruta para la página de contacto */}
+        <Route path="contact-us" element={<ContactPage />} />
+        
+        {/* Aquí añadirás futuras rutas, por ejemplo: */}
+        {/* <Route path="about-us" element={<AboutPage />} /> */}
+      </Route>
+    </Routes>
   );
 }
 

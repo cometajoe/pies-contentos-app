@@ -7,9 +7,9 @@ import ImageGallery from '../components/ImageGallery'; // <-- Tarea 2: Reutiliza
 // Imágenes de ejemplo para la sección de voluntarios.
 // Reemplázalas con fotos reales de tus eventos y voluntarios.
 const volunteerImages = [
-  { src: 'https://images.unsplash.com/photo-1578354924200-42831023c31a?auto=format&fit=crop&w=800&q=60', alt: 'Voluntaria enseñando a una niña', caption: 'Clases de apoyo personalizadas.' },
-  { src: 'https://images.unsplash.com/photo-1616474776949-035930c44a04?auto=format&fit=crop&w=800&q=60', alt: 'Grupo de voluntarios sonriendo', caption: 'Nuestro equipo después de una jornada exitosa.' },
-  { src: 'https://images.unsplash.com/photo-1518398046578-82877a4e302c?auto=format&fit=crop&w=800&q=60', alt: 'Voluntarios limpiando un parque', caption: 'Proyectos de mejora comunitaria.' },
+  { src: 'volunteer/dsc_0218.webp', alt: 'Voluntaria enseñando a una niña', caption: 'Clases de apoyo personalizadas.' },
+  { src: 'volunteer/merch.webp', alt: 'Grupo de voluntarios sonriendo', caption: 'Nuestro equipo después de una jornada exitosa.' },
+  { src: 'volunteer/voluntario.webp', alt: 'Voluntarios limpiando un parque', caption: 'Proyectos de mejora comunitaria.' },
   { src: 'https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?auto=format&fit=crop&w=800&q=60', alt: 'Voluntario jugando con niños', caption: 'El juego es parte fundamental del aprendizaje.' },
 ];
 

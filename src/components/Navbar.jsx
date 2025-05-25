@@ -21,12 +21,12 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: t('navbar.home'), href: '#home' }, // Es bueno tener un enlace 'home' explícito también
+    { name: t('navbar.home'), href: '/' }, // Es bueno tener un enlace 'home' explícito también
     { name: t('navbar.about'), href: '#about' },
     { name: t('navbar.mission'), href: '#mission' },
     { name: t('navbar.impact'), href: '#impact' },
     { name: t('navbar.gallery'), href: '#gallery' },
-    { name: t('navbar.contact'), href: '#contact' },
+    { name: t('navbar.contact'), href: 'contact-us' },
   ];
 
   const toggleMobileMenu = () => {

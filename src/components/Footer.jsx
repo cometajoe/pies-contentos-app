@@ -20,16 +20,20 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-16">
         {/* Contenido principal del footer en una cuadrícula */}
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
-          
+
           {/* Columna 1: Info de la ONG y Contacto */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <a href="#home" className="text-3xl font-bold text-white hover:text-sky-300 transition-colors font-gochi">
+
+            <div className='flex items-center space-x-2'> 
+               <img src="logo_white.png" alt="Logo" className="w-10 h-10" /> {/* Cambia la ruta al logo */}
+              <a href="#home" className="text-3xl font-bold text-white hover:text-sky-300 transition-colors font-gochi">
               Pies Contentos
             </a>
+            </div>
             <p className="mt-4 text-slate-400 text-sm leading-relaxed max-w-xs">
               {t('footer.shortBlurb')}
             </p>
-            <a 
+            <a
               href="mailto:contacto@ongnombre.org" // Reemplaza con tu email
               className="mt-6 inline-block text-sky-400 hover:text-sky-300 font-semibold text-sm transition-colors"
             >
@@ -58,7 +62,7 @@ const Footer = () => {
               <SocialIcons />
             </div>
           </div>
-          
+
           {/* Columna 4: Botón de Donar */}
           <div className="flex items-start">
             <a

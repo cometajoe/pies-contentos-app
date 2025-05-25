@@ -37,6 +37,20 @@
     "title": "Tu Tiempo, Su Futuro",
     "subtitle": "Los voluntarios son el corazón de nuestra organización. Cada hora que dedicas nos ayuda a crear un impacto real y duradero en la vida de un niño.",
     "ctaButton": "Quiero ser Voluntario"
+  }, "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "¿Tienes preguntas, quieres ser voluntario o simplemente saludar? Nos encantaría saber de ti.",
+    "nameLabel": "Tu Nombre",
+    "emailLabel": "Tu Correo Electrónico",
+    "reasonLabel": "Motivo del Contacto",
+    "reasonOptions": {
+      "general": "Información General",
+      "volunteer": "Quiero ser Voluntario",
+      "donation": "Sobre Donaciones",
+      "press": "Prensa y Medios"
+    },
+    "messageLabel": "Tu Mensaje",
+    "submitButton": "Enviar Mensaje"
   }
 
 }

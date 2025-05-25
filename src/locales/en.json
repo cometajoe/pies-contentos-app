@@ -37,6 +37,20 @@
     "title": "Your Time, Their Future",
     "subtitle": "Volunteers are the heart of our organization. Every hour you dedicate helps us create a real and lasting impact in a child's life.",
     "ctaButton": "I Want to Volunteer"
+  }, "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions, want to volunteer, or just say hello? We'd love to hear from you.",
+    "nameLabel": "Your Name",
+    "emailLabel": "Your Email Address",
+    "reasonLabel": "Reason for Contact",
+    "reasonOptions": {
+      "general": "General Information",
+      "volunteer": "I want to Volunteer",
+      "donation": "About Donations",
+      "press": "Press & Media"
+    },
+    "messageLabel": "Your Message",
+    "submitButton": "Send Message"
   }
   
 }

@@ -7,10 +7,10 @@ import PlaceholderLogo from '../components/PlaceholderLogo';
 // Actualizamos los datos para incluir URLs de logos reales (usaremos placeholders de SVGs)
 // Reemplaza estas URLs con las de los logos de tus socios.
 const partnersData = [
-  { name: 'Park United Presbyterian Church', href: '#', logoSrc: 'park-sign-2018-1-.webp' },
-  { name: 'Centro Mexicano Pro Bono', href: '#', logoSrc: 'pro-bono.webp' },
-  { name: 'SMPS Legal', href: '#', logoSrc: 'smps-legal.webp' }, // <-- Ejemplo usando el placeholder
-  { name: 'Tecnológico de Juárez', href: '#', logoSrc: 'tec-juarez.webp' },
+  { name: 'Park United Presbyterian Church', href: '#', logoSrc: 'partners/park-sign-2018-1-.webp' },
+  { name: 'Centro Mexicano Pro Bono', href: '#', logoSrc: 'partners/pro-bono.webp' },
+  { name: 'SMPS Legal', href: '#', logoSrc: 'partners/smps-legal.webp' }, // <-- Ejemplo usando el placeholder
+  { name: 'Tecnológico de Juárez', href: '#', logoSrc: 'partners/tec-juarez.webp' },
   { name: 'Donador Angel', href: '#', logoSrc: null },
 ];
 

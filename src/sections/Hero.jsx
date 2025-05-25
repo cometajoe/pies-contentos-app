@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
-
+import { Footprints } from  'lucide-react';
 const Hero = () => {
   const { t } = useLanguage();
 
@@ -116,7 +116,7 @@ const Hero = () => {
           variants={subtitleVariants}
         >
           {/* ... (tu SVG y texto del badge) ... */}
-          <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 32 32"><path d="M22.2,6.9c-1.3-1.3-3.4-1.3-4.7,0s-1.3,3.4,0,4.7s3.4,1.3,4.7,0S23.5,8.1,22.2,6.9z"/><path d="M16.1,2.3c-1.3-1.3-3.4-1.3-4.7,0s-1.3,3.4,0,4.7s3.4,1.3,4.7,0S17.4,3.6,16.1,2.3z"/><path d="M9.9,4.2c-1.3-1.3-3.4-1.3-4.7,0s-1.3,3.4,0,4.7s3.4,1.3,4.7,0S11.2,5.5,9.9,4.2z"/><path d="M5.2,10.4c-1.3-1.3-3.4-1.3-4.7,0s-1.3,3.4,0,4.7s3.4,1.3,4.7,0S6.5,11.7,5.2,10.4z"/><path d="M23,17.1c-2.3,2.3-5.2,4-8.3,4.7c-5.8,1.3-11.6-1.5-14.2-6.7c-0.4-0.8-0.2-1.8,0.6-2.2c0.8-0.4,1.8-0.2,2.2,0.6c1.9,3.9,6.2,5.8,10.5,4.9c2.4-0.5,4.6-2,6.4-3.9c0.6-0.6,1.6-0.6,2.2,0C23.6,15.5,23.6,16.5,23,17.1z"/></svg>
+          <Footprints className='mr-1'/>
           { t('hero.subtitle') }
         </motion.div>
         

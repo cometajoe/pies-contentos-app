@@ -22,10 +22,9 @@ const Navbar = () => {
 
   const navLinks = [
     { name: t('navbar.home'), href: '/' }, // Es bueno tener un enlace 'home' explícito también
-    { name: t('navbar.about'), href: '#about' },
-    { name: t('navbar.mission'), href: '#mission' },
-    { name: t('navbar.impact'), href: '#impact' },
-    { name: t('navbar.gallery'), href: '#gallery' },
+    { name: t('navbar.about'), href: 'about-us' },
+    { name: t('navbar.getInvolved'), href: 'get-involved' },
+    { name: t('navbar.ourWork'), href: 'our-work' },   
     { name: t('navbar.contact'), href: 'contact-us' },
   ];
 

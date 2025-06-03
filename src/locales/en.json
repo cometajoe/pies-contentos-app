@@ -2,10 +2,9 @@
   "navbar": {
     "home": "Home",
     "about": "About Us",
-    "mission": "Mission",
-    "impact": "Impact",
+    "ourWork": "Our Work",
     "contact": "Contact",
-    "gallery": "Gallery",
+    "getInvolved": "Get Involved",
     "donate": "Donate"
   },
   "hero": {
@@ -16,11 +15,41 @@
     "donateButton": "Donate Now",
     "stat1Number": "6,000+",
     "stat1Text": "Children supported",
-    "stat2Number": 25,
+    "stat2Number": "25",
     "stat2Text": "Comunities",
-    "stat3Number": 10,
+    "stat3Number": "10",
     "stat3Text": "Years"
-
+  },
+  "getInvolved": {
+    "pageTitle": "Get Involved",
+    "pageSubtitle": "Your support can make a significant difference. Discover how you can contribute to our cause and help us create more happy feet.",
+    "sponsor": {
+      "title": "Sponsor a Child",
+      "description": "Your generous donation directly benefits our scholars by providing them with essential resources, educational support, and opportunities for a brighter future. Every contribution, big or small, helps us continue our work.",
+      "button": "Donate Now"
+    },
+    "volunteer": {
+      "title": "Volunteer With Us",
+      "description": "Become part of our dedicated team. Your time and skills are invaluable in organizing events, mentoring children, and supporting our daily operations. Join us in making a hands-on impact.",
+      "formTitle": "Become a Volunteer",
+      "nameLabel": "Full Name",
+      "emailLabel": "Email Address",
+      "phoneLabel": "Phone Number (Optional)",
+      "interestLabel": "Area of Interest / Skills",
+      "messageLabel": "Why do you want to volunteer with Pies Contentos?",
+      "submitButton": "Send Application",
+      "successMessage": "Thank you for your interest! We will contact you soon."
+    },
+    "partner": {
+      "title": "Become a Partner",
+      "description": "Collaborate with us by offering your services or resources. We welcome partnerships in health, entertainment, nutrition, education, and more to enrich the lives of the children and families we serve.",
+      "contactButton": "Partner With Us"
+    },
+    "store": {
+      "title": "Visit Our Online Store",
+      "description": "Support our cause by shopping from our online store. All proceeds go directly towards funding our programs and helping more children in need. Find unique products and make a difference with every purchase.",
+      "button": "Shop Now"
+    }
   },
   "about": {
     "title": "Who We Are",
@@ -30,21 +59,64 @@
   "mission": {
     "title": "Our Mission",
     "statement": "Inspiring and embodying the change we want to see in the people of Mexico."
-  }, "footer": {
+  },
+  "aboutUsPage": {
+    "pageTitle": "About Us",
+    "pageSubtitle": "Learn more about our journey, our team, and our commitment to making a difference in the lives of children.",
+    "history": {
+        "title": "Our Story",
+        "content": [
+            "Pies Contentos was born from a simple desire: to bring joy and essential support to children in vulnerable situations in Mexico. It all started in 2014 with a small group of passionate individuals in Ciudad Juárez who saw a need and decided to act, initially providing shoes and socks.",
+            "Over the years, what began as a modest initiative has grown into a comprehensive support system. We've expanded our reach across various communities, forged incredible partnerships with local and international organizations, and witnessed firsthand the transformative power of community and compassion. Our journey is fueled by the smiles of the children we serve and the dedication of everyone involved, from volunteers to donors."
+        ]
+    },
+    "team": {
+        "title": "Meet Our Team",
+        "intro": "We are a group of dedicated individuals passionate about creating a positive impact. Get to know the people behind Pies Contentos.",
+        "member1": { "name": "Maria Elena Valdez", "role": "Founder & Director", "bio": "Maria Elena is the visionary behind Pies Contentos, driven by a deep commitment to child welfare and community development in Chihuahua. Her leadership has been pivotal to our growth and impact.", "imageUrl": "/team/placeholder-woman1.jpg" },
+        "member2": { "name": "Carlos Sánchez", "role": "Operations Coordinator", "bio": "Carlos ensures that our programs run smoothly and efficiently, managing logistics and on-the-ground activities with dedication and a smile.", "imageUrl": "/team/placeholder-man1.jpg" },
+        "member3": { "name": "Laura Fernández", "role": "Volunteer & Community Manager", "bio": "Laura connects with our amazing volunteers and fosters strong relationships within the communities we serve, ensuring our efforts are always aligned with their needs.", "imageUrl": "/team/placeholder-woman2.jpg" }
+    },
+    "visionMission": {
+        "title": "Our Vision & Mission",
+        "visionTitle": "Our Vision",
+        "visionContent": "A world where every child in Mexico has the opportunity to thrive with dignity, with access to education, health, and a supportive community that nurtures their potential and ensures their feet are always happy.",
+        "missionTitle": "Our Mission"
+    },
+    "quote": {
+        "text": "It's not what you gather, but what you scatter that tells what kind of life you have lived.",
+        "author": "Helen Walton"
+    },
+    "transparency": {
+        "title": "Transparency & Impact",
+        "intro": "We believe in accountability and are committed to using every donation effectively. We strive to be transparent about our operations and the impact we create, ensuring our supporters know the difference they make.",
+        "reportLinkText": "View Our Annual Report (Coming Soon)",
+        "stats": {
+            "beneficiaries": "Children Supported",
+            "volunteers": "Active Volunteers",
+            "communities": "Communities Reached",
+            "years": "Years of Impact"
+        },
+        "statVolunteersNumber": "150+"
+    }
+  },
+  "footer": {
     "shortBlurb": "Dedicated to creating a positive impact and a sustainable future for everyone.",
     "quickLinks": "Quick Links",
     "contactUs": "Contact Us",
     "followUs": "Follow Us",
     "copyright": "© 2025 NGO Name. All rights reserved."
-  }, "partners": {
+  },
+  "partners": {
     "title": "Our Partners",
     "subtitle": "We are deeply grateful to these organizations for their invaluable support and collaboration in our mission."
-  },  
+  },
   "volunteers": {
     "title": "Your Time, Their Future",
     "subtitle": "Volunteers are the heart of our organization. Every hour you dedicate helps us create a real and lasting impact in a child's life.",
     "ctaButton": "I Want to Volunteer"
-  }, "contact": {
+  },
+  "contact": {
     "title": "Get in Touch",
     "subtitle": "Have questions, want to volunteer, or just say hello? We'd love to hear from you.",
     "nameLabel": "Your Name",
@@ -59,5 +131,4 @@
     "messageLabel": "Your Message",
     "submitButton": "Send Message"
   }
-  
 }

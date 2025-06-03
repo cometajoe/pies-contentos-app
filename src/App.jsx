@@ -5,6 +5,8 @@ import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import ContactPage from './pages/ContactPage';
+import GetInvolvedPage from './pages/GetInvolvedPage';
+import AboutUsPage from './pages/AboutUsPage';
 
 function App() {
 
@@ -12,14 +14,14 @@ function App() {
     <Routes>
       {/* Todas las rutas dentro de 'Layout' compartirán el Navbar y Footer */}
       <Route path="/" element={<Layout />}>
-        {/* La ruta 'index' es la página por defecto para el path del padre ('/') */}
-        <Route path='/' element={<HomePage />} />
+        <Route index element={<HomePage />} />
         
-        {/* Define la nueva ruta para la página de contacto */}
         <Route path="contact-us" element={<ContactPage />} />
+
+        <Route path="about-us" element={<AboutUsPage />} />
+        <Route path="get-involved" element={<GetInvolvedPage />} />
         
-        {/* Aquí añadirás futuras rutas, por ejemplo: */}
-        {/* <Route path="about-us" element={<AboutPage />} /> */}
+      
       </Route>
     </Routes>
   );

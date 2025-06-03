@@ -2,11 +2,10 @@
   "navbar": {
     "home": "Inicio",
     "about": "Nosotros",
-    "mission": "Misión",
-    "impact": "Impacto",
+    "ourWork": "Nuestro Trabajo",
+    "getInvolved": "Colabora",
     "contact": "Contacto",
-    "gallery": "Galería",
-     "donate": "Donar" 
+    "donate": "Donar"
   },
   "hero": {
     "title": "Transformando Vidas, Juntos.",
@@ -16,12 +15,43 @@
     "donateButton": "Dona Ahora",
     "stat1Number": "6,000+",
     "stat1Text": "Niños apoyados",
-    "stat2Number": 25,
+    "stat2Number": "25",
     "stat2Text": "Comunidades",
-    "stat3Number": 10,
+    "stat3Number": "10",
     "stat3Text": "Años"
   },
- "about": {
+  "getInvolved": {
+    "pageTitle": "Colabora",
+    "pageSubtitle": "Tu apoyo puede marcar una diferencia significativa. Descubre cómo puedes contribuir a nuestra causa y ayudarnos a crear más pies contentos.",
+    "sponsor": {
+      "title": "Apadrina un Niño",
+      "description": "Tu generosa donación beneficia directamente a nuestros becarios proporcionándoles recursos esenciales, apoyo educativo y oportunidades para un futuro más brillante. Cada contribución, grande o pequeña, nos ayuda a continuar nuestra labor.",
+      "button": "Dona Ahora"
+    },
+    "volunteer": {
+      "title": "Sé Voluntario",
+      "description": "Forma parte de nuestro dedicado equipo. Tu tiempo y habilidades son invaluables para organizar eventos, orientar a los niños y apoyar nuestras operaciones diarias. Únete a nosotros para generar un impacto directo.",
+      "formTitle": "Conviértete en Voluntario",
+      "nameLabel": "Nombre Completo",
+      "emailLabel": "Correo Electrónico",
+      "phoneLabel": "Número de Teléfono (Opcional)",
+      "interestLabel": "Área de Interés / Habilidades",
+      "messageLabel": "¿Por qué quieres ser voluntario en Pies Contentos?",
+      "submitButton": "Enviar Solicitud",
+      "successMessage": "¡Gracias por tu interés! Nos pondremos en contacto contigo pronto."
+    },
+    "partner": {
+      "title": "Patrocina",
+      "description": "Colabora con nosotros ofreciendo tus servicios o recursos. Damos la bienvenida a colaboraciones en salud, entretenimiento, nutrición, educación y más para enriquecer la vida de los niños y familias a las que servimos.",
+      "contactButton": "Colabora con Nosotros"
+    },
+    "store": {
+      "title": "Visita Nuestra Tienda en Línea",
+      "description": "Apoya nuestra causa comprando en nuestra tienda en línea. Todos los ingresos se destinan directamente a financiar nuestros programas y ayudar a más niños necesitados. Encuentra productos únicos y marca la diferencia con cada compra.",
+      "button": "Ir a la Tienda"
+    }
+  },
+  "about": {
     "title": "Quiénes Somos",
     "description": "Pies Contentos es una organización sin fines de lucro que comenzó en México. Apoyamos a niños entre  6 - 12 que viven en situación vulnerable y les proveemos de tenis, calcetines y artículos de temporada.",
     "readMore": "Leer más"
@@ -30,20 +60,78 @@
     "title": "Nuestra Misión",
     "statement": "Ser el cambio que queremos ver en las personas de México."
   },
+  "aboutUsPage": {
+    "pageTitle": "Sobre Nosotros",
+    "pageSubtitle": "Conoce más sobre nuestra historia, nuestro equipo y nuestro compromiso para marcar la diferencia en la vida de los niños.",
+    "history": {
+      "title": "Nuestra Historia",
+      "content": [
+        "Pies Contentos nació de un deseo simple: llevar alegría y apoyo esencial a niños en situaciones vulnerables en México. Todo comenzó en 2014 con un pequeño grupo de individuos apasionados en Ciudad Juárez que vieron una necesidad y decidieron actuar, inicialmente proveyendo tenis y calcetines.",
+        "Con los años, lo que empezó como una modesta iniciativa ha crecido hasta convertirse en un sistema de apoyo integral. Hemos expandido nuestro alcance a diversas comunidades, forjado alianzas increíbles con organizaciones locales e internacionales y sido testigos de primera mano del poder transformador de la comunidad y la compasión. Nuestro viaje está impulsado por las sonrisas de los niños que servimos y la dedicación de todos los involucrados, desde voluntarios hasta donantes."
+      ]
+    },
+    "team": {
+      "title": "Conoce a Nuestro Equipo",
+      "intro": "Somos un grupo de personas dedicadas y apasionadas por crear un impacto positivo. Conoce a las personas detrás de Pies Contentos.",
+      "member1": {
+        "name": "Maria Elena Valdez",
+        "role": "Fundadora y Directora",
+        "bio": "Maria Elena es la visionaria detrás de Pies Contentos, impulsada por un profundo compromiso con el bienestar infantil y el desarrollo comunitario en Chihuahua. Su liderazgo ha sido fundamental para nuestro crecimiento e impacto.",
+        "imageUrl": "/team/placeholder-woman1.jpg"
+      },
+      "member2": {
+        "name": "Carlos Sánchez",
+        "role": "Coordinador de Operaciones",
+        "bio": "Carlos asegura que nuestros programas funcionen de manera fluida y eficiente, gestionando la logística y las actividades en terreno con dedicación y una sonrisa.",
+        "imageUrl": "/team/placeholder-man1.jpg"
+      },
+      "member3": {
+        "name": "Laura Fernández",
+        "role": "Gestora de Voluntarios y Comunidad",
+        "bio": "Laura conecta con nuestros increíbles voluntarios y fomenta relaciones sólidas dentro de las comunidades a las que servimos, asegurando que nuestros esfuerzos estén siempre alineados con sus necesidades.",
+        "imageUrl": "/team/placeholder-woman2.jpg"
+      }
+    },
+    "visionMission": {
+      "title": "Nuestra Visión y Misión",
+      "visionTitle": "Nuestra Visión",
+      "visionContent": "Un mundo donde cada niño en México tenga la oportunidad de prosperar con dignidad, con acceso a educación, salud y una comunidad de apoyo que nutra su potencial y asegure que sus pies estén siempre contentos.",
+      "missionTitle": "Nuestra Misión"
+    },
+    "quote": {
+      "text": "No es lo que recoges, sino lo que esparces, lo que dice qué tipo de vida has vivido.",
+      "author": "Helen Walton"
+    },
+    "transparency": {
+      "title": "Transparencia e Impacto",
+      "intro": "Creemos en la rendición de cuentas y estamos comprometidos a utilizar cada donación de manera efectiva. Nos esforzamos por ser transparentes sobre nuestras operaciones y el impacto que creamos, asegurando que nuestros donantes sepan la diferencia que hacen.",
+      "reportLinkText": "Ver Nuestro Reporte Anual (Próximamente)",
+      "stats": {
+        "beneficiaries": "Niños Apoyados",
+        "volunteers": "Voluntarios Activos",
+        "communities": "Comunidades Alcanzadas",
+        "years": "Años de Impacto"
+      },
+      "statVolunteersNumber": "150+"
+    }
+  },
   "footer": {
     "shortBlurb": "Dedicados a crear un impacto positivo y un futuro sostenible para todos.",
     "quickLinks": "Enlaces Rápidos",
     "contactUs": "Contáctanos",
     "followUs": "Síguenos en Redes",
     "copyright": "© 2025 Pies Contentos. Todos los derechos reservados."
-  },"partners": {
+  },
+  "partners": {
     "title": "Nuestros Socios",
     "subtitle": "Agradecemos profundamente a estas organizaciones por su invaluable apoyo y colaboración en nuestra misión."
-  },"volunteers": {
+  },
+  "volunteers": {
     "title": "Tu Tiempo, Su Futuro",
     "subtitle": "Los voluntarios son el corazón de nuestra organización. Cada hora que dedicas nos ayuda a crear un impacto real y duradero en la vida de un niño.",
     "ctaButton": "Quiero ser Voluntario"
-  }, "contact": {
+  },
+  "contact": {
     "title": "Ponte en Contacto",
     "subtitle": "¿Tienes preguntas, quieres ser voluntario o simplemente saludar? Nos encantaría saber de ti.",
     "nameLabel": "Tu Nombre",
@@ -58,5 +146,4 @@
     "messageLabel": "Tu Mensaje",
     "submitButton": "Enviar Mensaje"
   }
-
 }

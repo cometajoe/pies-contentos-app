@@ -20,7 +20,6 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-16">
         {/* Contenido principal del footer en una cuadrícula */}
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
-
           {/* Columna 1: Info de la ONG y Contacto */}
           <div className="sm:col-span-2 lg:col-span-1">
 

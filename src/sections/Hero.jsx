@@ -82,7 +82,7 @@ const Hero = () => {
         <img
           src={heroImageUrl}
           alt="Niños felices corriendo - Fundación Pies Contentos"
-          className="w-full h-full object-cover  object-right-bottom"
+          className="w-full h-full object-cover  md:object-right-bottom object-center-cover"
           loading="eager"
         />
       </motion.div>

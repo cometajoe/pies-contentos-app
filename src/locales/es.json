@@ -13,16 +13,22 @@
     "subtitle": "Cada paso cuenta.",
     "title1": "En Pies Contentos, transformamos vidas y",
     "title2": "construimos un futuro brillante.",
-    "donateButton": "Dona Ahora"
+    "donateButton": "Dona Ahora",
+    "stat1Number": "6,000+",
+    "stat1Text": "Niños apoyados",
+    "stat2Number": 25,
+    "stat2Text": "Comunidades",
+    "stat3Number": 10,
+    "stat3Text": "Años"
   },
  "about": {
     "title": "Quiénes Somos",
-    "description": "Pies Contentos es una organización sin fines de lucro que se fundó en Chihuahua, México. Nuestro objetivo principal es brindar apoyo a niños de entre 6 y 12 años que se encuentran en situación vulnerable.",
+    "description": "Pies Contentos es una organización sin fines de lucro que comenzó en México. Apoyamos a niños entre  6 - 12 que viven en situación vulnerable y les proveemos de tenis, calcetines y artículos de temporada.",
     "readMore": "Leer más"
   },
   "mission": {
     "title": "Nuestra Misión",
-    "statement": "Nuestra misión es empoderar a las comunidades a través de la educación, el acceso a recursos vitales y la promoción de un futuro sostenible. Creemos en el potencial de cada individuo para crear un cambio positivo y duradero."
+    "statement": "Ser el cambio que queremos ver en las personas de México."
   },
   "footer": {
     "shortBlurb": "Dedicados a crear un impacto positivo y un futuro sostenible para todos.",

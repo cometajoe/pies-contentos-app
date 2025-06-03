@@ -48,12 +48,12 @@ const ContactForm = () => {
     {
       icon: Mail,
       title: 'Email',
-      content: 'contacto@ong.org',
+      content: 'pies.contentos.pc@gmail.com',
     },
     {
       icon: Phone,
       title: 'Teléfono',
-      content: '+52 656 123 4567',
+      content: '+52 656-770-8528',
     },
     {
       icon: Clock,
@@ -68,7 +68,7 @@ const ContactForm = () => {
         
         {/* Header */}
         <motion.div
-          className="text-center max-w-2xl mx-auto mb-16"
+          className="text-center max-w-2xl mx-auto mb-16 bg-gradient-to-b "
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6 }}

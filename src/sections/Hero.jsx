@@ -7,7 +7,7 @@ const Hero = () => {
   const { t } = useLanguage();
 
   // URL de imagen mejorada y más específica para ONG de niños
-  const heroImageUrl = 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80';
+  const heroImageUrl = 'slide1.jpeg';
 
   // Animaciones mejoradas con más suavidad
   const containerVariants = {
@@ -71,7 +71,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden ">
       {/* Fondo */}
       <motion.div 
         className="absolute inset-0 w-full h-full"
@@ -82,7 +82,7 @@ const Hero = () => {
         <img
           src={heroImageUrl}
           alt="Niños felices corriendo - Fundación Pies Contentos"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover  object-right-bottom"
           loading="eager"
         />
       </motion.div>

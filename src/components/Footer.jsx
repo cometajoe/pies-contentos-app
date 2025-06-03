@@ -34,7 +34,7 @@ const Footer = () => {
               {t('footer.shortBlurb')}
             </p>
             <a
-              href="mailto:contacto@ongnombre.org" // Reemplaza con tu email
+              href="mailto:pies.contentos.pc@gmail.com" // Reemplaza con tu email
               className="mt-6 inline-block text-sky-400 hover:text-sky-300 font-semibold text-sm transition-colors"
             >
               {t('footer.contactUs')} &rarr;

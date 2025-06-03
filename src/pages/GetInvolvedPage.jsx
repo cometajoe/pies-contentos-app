@@ -232,7 +232,7 @@ const GetInvolvedPage = () => {
             </div>
             <div className="md:col-span-1 flex justify-center md:justify-end">
               <a
-                href="#" // Reemplaza '#' con el enlace real a tu tienda
+                href="/coming-soon" // Reemplaza '#' con el enlace real a tu tienda
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-10 py-4 text-lg font-semibold text-sky-700 bg-white hover:bg-sky-50 rounded-xl shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-sky-200/50 transition-all duration-300 transform hover:scale-105"

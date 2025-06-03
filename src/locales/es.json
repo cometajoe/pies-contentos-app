@@ -115,6 +115,19 @@
       "statVolunteersNumber": "150+"
     }
   },
+  "comingSoon": {
+    "title": "¡Próximamente!",
+    "message": "Estamos trabajando duro para traerte algo increíble. ¡Mantente atento!",
+    "backToHome": "Volver al Inicio"
+  },
+  "notFound": {
+    "errorCode": "404",
+    "title": "¡Ups! Página No Encontrada",
+    "message": "Lo sentimos, pero la página que estabas buscando no existe o ha sido movida.",
+    "messageSuggestion": "Puedes volver a la página de inicio o intentar una búsqueda.",
+    "backToHome": "Ir a la Página Principal"
+  }
+  ,
   "footer": {
     "shortBlurb": "Dedicados a crear un impacto positivo y un futuro sostenible para todos.",
     "quickLinks": "Enlaces Rápidos",

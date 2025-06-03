@@ -100,6 +100,18 @@
         "statVolunteersNumber": "150+"
     }
   },
+   "comingSoon": {
+    "title": "Coming Soon!",
+    "message": "We're working hard to bring you something amazing. Stay tuned!",
+    "backToHome": "Back to Homepage"
+  },
+  "notFound": {
+    "errorCode": "404",
+    "title": "Oops! Page Not Found",
+    "message": "We're sorry, but the page you were looking for doesn't exist or has been moved.",
+    "messageSuggestion": "You can return to the homepage or try searching.",
+    "backToHome": "Go to Homepage"
+  },
   "footer": {
     "shortBlurb": "Dedicated to creating a positive impact and a sustainable future for everyone.",
     "quickLinks": "Quick Links",

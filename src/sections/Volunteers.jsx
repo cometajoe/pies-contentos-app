@@ -1,8 +1,10 @@
-// src/sections/Volunteers.jsx
+
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
-import ImageGallery from '../components/ImageGallery'; // <-- Tarea 2: Reutilizamos el componente
+import ImageGallery from '../components/ImageGallery'; 
+import ReadMoreButton from '../components/ReadMoreButton';
+
 
 // Imágenes de ejemplo para la sección de voluntarios.
 // Reemplázalas con fotos reales de tus eventos y voluntarios.
@@ -53,21 +55,9 @@ const Volunteers = () => {
         </motion.div>
 
         {/* Botón de Llamado a la Acción */}
-        <motion.div variants={itemVariants} className="mt-12 md:mt-16">
-          <a
-            href="#contact" // Enlaza al formulario de contacto
-            className="
-              inline-block px-8 py-4 text-base font-semibold text-white 
-              bg-sky-600 hover:bg-sky-700 
-              rounded-lg shadow-lg hover:shadow-xl
-              focus:outline-none focus:ring-2 focus:ring-sky-50p0 focus:ring-offset-2
-              transition-all duration-300 ease-in-out transform hover:scale-105
-              sm:text-lg
-            "
-          >
-            {t('volunteers.ctaButton')}
-          </a>
-        </motion.div>
+   
+              <ReadMoreButton href={"/get-involved"} variants={itemVariants} title="volunteers.ctaButton" />
+
       </motion.div>
     </section>
   );

@@ -43,13 +43,12 @@ const Navbar = () => {
           {/* Logo / Nombre de la Organización */}
           <div className="flex-shrink-0">
             <a
-              href="#home" // Enlaza a la sección de inicio
+              href="/" // Enlaza a la sección de inicio
               className="flex items-center space-x-2 text-2xl font-bold text-sky-700 hover:text-sky-800 transition-colors duration-150"
             >
-              {/* Icono opcional para el logo */}
-              <div className="">
+             
                  <img src="logo_piescontentos.png" alt="Logo" className="w-10 h-10" /> {/* Cambia la ruta al logo */}
-              </div>
+            
               <span className='font-gochi text-3xl'>Pies Contentos</span>
             </a>
           </div>

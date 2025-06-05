@@ -2,7 +2,7 @@
 import { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
-import { MapPin, Mail, Phone, Clock } from 'lucide-react';
+import { MapPin, Mail, Phone, Clock, Send } from 'lucide-react';
 
 // Google Maps embed URL - replace with your actual location coordinates
 const GOOGLE_MAPS_EMBED_URL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3515.8234567890123!2d-106.4680535!3d31.7311197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e7593690757361%3A0x2c0191e5e5b7f975!2sBrasil%20776%2C%20Ex%20Hip%C3%B3dromo%2C%2032040%20Ju%C3%A1rez%2C%20Chih.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus";
@@ -21,22 +21,46 @@ const ContactForm = () => {
   
 
   const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submitStatus, setSubmitStatus] = useState({ // Para manejar éxito y error
+    submitted: false,
+    success: false,
+    message: '',
+  });
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prevState => ({ ...prevState, [name]: value }));
   };
 
-  const handleSubmit = async (e) => {
+const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    alert(`Mensaje enviado (simulación):\n${JSON.stringify(formData, null, 2)}`);
-    setFormData({ name: '', email: '', reason: 'general', message: '' });
-    setIsSubmitting(false);
+    setSubmitStatus({ submitted: false, success: false, message: '' }); // Reset status
+
+    try {
+      const response = await fetch('http://localhost:3001/api/send-email', { // URL de tu backend
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        setSubmitStatus({ submitted: true, success: true, message: t('contact.submitSuccessMessage') || result.message }); // Usa una traducción si la tienes
+        setFormData({ name: '', email: '', reason: 'general', message: '' }); // Limpia el formulario
+      } else {
+        setSubmitStatus({ submitted: true, success: false, message: t('contact.submitErrorMessage') || result.message || 'Error al enviar el mensaje.' }); // Usa una traducción
+      }
+    } catch (error) {
+      console.error('Error en la petición fetch:', error);
+      setSubmitStatus({ submitted: true, success: false, message: t('contact.submitNetworkErrorMessage') || 'Error de red. Inténtalo de nuevo.' }); // Usa una traducción
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactInfo = [
@@ -156,12 +180,18 @@ const ContactForm = () => {
                 </div>
 
                 <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full bg-slate-700 text-white py-3 px-6 rounded-lg font-medium hover:bg-gray-800 focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {isSubmitting ? 'Enviando...' : t('contact.submitButton')}
-                </button>
+                type="submit"
+                disabled={isSubmitting}
+                className="w-full flex items-center justify-center bg-sky-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
+              >
+                {isSubmitting ? (
+                  <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                  </svg>
+                ) : <Send className="w-5 h-5 mr-2" /> }
+                {isSubmitting ? (t('contact.submittingButton') || 'Enviando...') : t('contact.submitButton')}
+              </button>
               </form>
             </div>
           </motion.div>

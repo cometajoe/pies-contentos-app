@@ -9,6 +9,7 @@ import GetInvolvedPage from './pages/GetInvolvedPage';
 import AboutUsPage from './pages/AboutUsPage';
 import ComingSoonPage from './pages/ComingSoonPage';
 import NotFoundPage from './pages/NotFoundPage';
+import OurWorkPage from './pages/OurWorkPage';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="about-us" element={<AboutUsPage />} />
         <Route path="get-involved" element={<GetInvolvedPage />} />
         <Route path="coming-soon" element={<ComingSoonPage />} />
+        <Route path="our-work" element={<OurWorkPage />} />
         <Route path="*" element={<NotFoundPage />} />
       
       </Route>

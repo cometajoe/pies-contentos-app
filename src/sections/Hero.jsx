@@ -154,7 +154,7 @@ const Hero = () => {
           transition={{ delay: 0.4 }}
         >
           {/* ... (tu código de estadísticas, que ya es mobile-first) ... */}
-           <div className="text-center"> <div className="text-3xl sm:text-4xl font-bold text-sky-400 mb-2"> {t('hero.stat1Number') || '2,500+'} </div> <div className="text-sm sm:text-base text-slate-300"> {t('hero.stat1Text') || 'Niños ayudados'} </div> </div> <div className="text-center"> <div className="text-3xl sm:text-4xl font-bold text-sky-400 mb-2"> {t('hero.stat2Number') || '50+'} </div> <div className="text-sm sm:text-base text-slate-300"> {t('hero.stat2Text') || 'Comunidades'} </div> </div> <div className="text-center"> <div className="text-3xl sm:text-4xl font-bold text-sky-400 mb-2"> {t('hero.stat3Number') || '9'} </div> <div className="text-sm sm:text-base text-slate-300"> {t('hero.stat3Text') || 'Años de impacto'} </div> </div>
+           <div className="text-center"> <div className="text-3xl sm:text-4xl font-bold text-sky-400 mb-2"> {t('hero.stat1Number') || '2,500+'} </div> <div className="text-sm sm:text-base text-slate-300"> {t('hero.stat1Text') || 'Niños ayudados'} </div> </div> <div className="text-center"> <div className="text-3xl sm:text-4xl font-bold text-sky-400 mb-2"> {t('hero.stat2Number') || '50+'} </div> <div className="text-sm sm:text-base text-slate-300"> {t('hero.communitiesServed') || 'Comunidades'} </div> </div> <div className="text-center"> <div className="text-3xl sm:text-4xl font-bold text-sky-400 mb-2"> {t('hero.stat3Number') || '9'} </div> <div className="text-sm sm:text-base text-slate-300"> {t('hero.yearsOfWork') || 'Años de impacto'} </div> </div>
         </motion.div>
       </motion.div>
 

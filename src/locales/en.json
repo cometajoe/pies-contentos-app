@@ -16,9 +16,9 @@
     "stat1Number": "6,000+",
     "stat1Text": "Children supported",
     "stat2Number": "25",
-    "stat2Text": "Comunities",
+    "communitiesServed": "Communities Served",
     "stat3Number": "10",
-    "stat3Text": "Years"
+    "yearsOfWork": "Years of Work"
   },
   "getInvolved": {
     "pageTitle": "Get Involved",
@@ -112,6 +112,102 @@
     "messageSuggestion": "You can return to the homepage or try searching.",
     "backToHome": "Go to Homepage"
   },
+  "ourWork": {
+    "title": "Our Work",
+    "subtitle": "At Pies Contentos, we focus on comprehensive development. Our programs are designed to provide children with the tools and support they need to build a brighter future.",
+    "education": {
+      "title": "Education",
+      "description": "We promote access to quality education, offering workshops, school supplies, and a supportive learning environment to inspire curiosity and growth."
+    },
+    "shoes": {
+      "title": "Shoes & Essentials",
+      "description": "We provide quality footwear and essential seasonal items, ensuring children's well-being, comfort, and ability to participate fully in their daily activities."
+    },
+    "scholarships": {
+      "title": "Scholarships",
+      "description": "Through our scholarship program, we support dedicated students in continuing their education, helping them overcome economic barriers and achieve their academic goals."
+    },
+    "readMore": "Discover Our Impact"
+  },
+   "ourWorkPage": {
+    "pageTitle": "Our Work",
+    "pageSubtitle": "Learn about the projects that transform lives and communities",
+    "mainSectionTitle": "Projects that Transform",
+    "mainSectionIntro": "Through our three fundamental pillars, we work to create real opportunities for development and well-being in the most vulnerable communities of our country.",
+    "impact": {
+      "beneficiaries": "Beneficiaries",
+      "communities": "Communities",
+      "items": "Items Delivered",
+      "students": "Students Supported",
+      "schools": "Partner Schools",
+      "devices": "Devices Provided",
+      "scholars": "Current Scholars",
+      "graduated": "Graduation Rate",
+      "investment": "Direct Investment"
+    },
+    "workModelTitle": "Our Working Model:",
+    "scholarshipSupportTitle": "Comprehensive Support We Provide:",
+    "ctaProjectButton": "Learn more details",
+    "overallImpact": {
+      "title": "Our Total Impact",
+      "subtitle": "Numbers that reflect transformed lives and strengthened communities.",
+      "directBeneficiaries": "Direct Beneficiaries",
+      "communitiesServed": "Communities Served",
+      "yearsOfWork": "Years of Work",
+      "socialInvestment": "Accumulated Social Investment"
+    },
+    "finalCta": {
+      "title": "Want to Be Part of the Change?",
+      "subtitle": "Join our mission to transform lives and communities. Your support can make a difference.",
+      "donateButton": "Make a Donation",
+      "volunteerButton": "I Want to Volunteer"
+    },
+    "projectsData": [
+      {
+        "id": "pies-contentos",
+        "title": "Pies contentos",
+        "subtitle": "Footwear and Essentials with Dignity",
+        "description": "We provide quality footwear and seasonal essential items to children and families in vulnerable situations, ensuring their basic well-being, fostering self-esteem, and enabling them to actively participate in their education and development.",
+        "workModel": [
+          "Accurate identification of vulnerable communities through fieldwork and data analysis.",
+          "Establishment of strategic alliances with community leaders, schools, and local authorities.",
+          "Organization and execution of direct distribution days, ensuring dignified and personalized treatment.",
+          "Follow-up programs to assess long-term impact and adapt our interventions."
+        ]
+      },
+      {
+        "id": "remote-school",
+        "title": "Remote School Connecting Futures",
+        "subtitle": "Digital Access for Education",
+        "description": "Aware of the growing importance of technology, we actively work to reduce the digital divide in the most vulnerable areas, facilitating access to tools and knowledge that prepare students for the future.",
+        "workModel": [
+          "Comprehensive diagnosis of technological needs in rural and peri-urban schools.",
+          "Provision of computer equipment, tablets, and improvement of internet connectivity in educational centers.",
+          "Training programs for teachers in the effective use of digital tools and innovative pedagogies.",
+          "Continuous technical support and creation of learning communities for the exchange of best practices."
+        ]
+      },
+      {
+        "id": "scholarships",
+        "title": "Impulse Scholarship Program",
+        "subtitle": "Support to Continue Studying",
+        "description": "We firmly believe that education is key to a better future. Our scholarship program supports talented young people from low-income backgrounds so they can continue and complete their studies, breaking cycles of poverty.",
+        "scholarshipSupport": [
+          "Monthly financial support to cover tuition, materials, and transportation expenses.",
+          "Access to personalized academic tutoring and soft skills development workshops.",
+          "Mentoring programs with professionals for vocational guidance and career development.",
+          "Academic and psychosocial follow-up to ensure the scholar's comprehensive well-being.",
+          "Encouragement of participation in community service activities to strengthen their leadership."
+        ]
+      }
+    ],
+    "navigation": {
+      "nextProject": "Next Project",
+      "prevProject": "Previous Project",
+      "viewProject": "View Project"
+    }
+  }
+  ,
   "footer": {
     "shortBlurb": "Dedicated to creating a positive impact and a sustainable future for everyone.",
     "quickLinks": "Quick Links",

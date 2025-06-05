@@ -16,9 +16,9 @@
     "stat1Number": "6,000+",
     "stat1Text": "Niños apoyados",
     "stat2Number": "25",
-    "stat2Text": "Comunidades",
+    "communitiesServed": "Comunidades Atendidas",
     "stat3Number": "10",
-    "stat3Text": "Años"
+    "yearsOfWork": "Años de Trayectoria"
   },
   "getInvolved": {
     "pageTitle": "Colabora",
@@ -126,8 +126,101 @@
     "message": "Lo sentimos, pero la página que estabas buscando no existe o ha sido movida.",
     "messageSuggestion": "Puedes volver a la página de inicio o intentar una búsqueda.",
     "backToHome": "Ir a la Página Principal"
-  }
-  ,
+  },
+  "ourWork": {
+    "title": "Nuestro Trabajo",
+    "subtitle": "En Pies Contentos, nos enfocamos en el desarrollo integral. Nuestros programas están diseñados para brindar a los niños las herramientas y el apoyo que necesitan para construir un futuro más brillante.",
+    "education": {
+      "title": "Educación",
+      "description": "Fomentamos el acceso a una educación de calidad, ofreciendo talleres, útiles escolares y un ambiente de aprendizaje de apoyo para inspirar la curiosidad y el crecimiento."
+    },
+    "shoes": {
+      "title": "Zapatos y Esenciales",
+      "description": "Proveemos calzado de calidad y artículos esenciales de temporada, asegurando el bienestar, la comodidad y la capacidad de los niños para participar plenamente en sus actividades diarias."
+    },
+    "scholarships": {
+      "title": "Becas",
+      "description": "A través de nuestro programa de becas, apoyamos a estudiantes dedicados a continuar su educación, ayudándoles a superar barreras económicas y alcanzar sus metas académicas."
+    },
+    "readMore": "Descubre Nuestro Impacto"
+  },
+   "ourWorkPage": {
+    "pageTitle": "Nuestro Trabajo",
+    "pageSubtitle": "Conoce los proyectos que transforman vidas y comunidades",
+    "mainSectionTitle": "Proyectos que Transforman",
+    "mainSectionIntro": "A través de nuestros tres pilares fundamentales, trabajamos para crear oportunidades reales de desarrollo y bienestar en las comunidades más vulnerables de nuestro país.",
+    "impact": {
+      "beneficiaries": "Beneficiarios",
+      "communities": "Comunidades",
+      "items": "Artículos Entregados",
+      "students": "Estudiantes Apoyados",
+      "schools": "Escuelas Colaboradoras",
+      "devices": "Dispositivos Provistos",
+      "scholars": "Becarios Actuales",
+      "graduated": "Tasa de Graduación",
+      "investment": "Inversión Directa"
+    },
+    "workModelTitle": "Nuestro Modelo de Trabajo:",
+    "scholarshipSupportTitle": "Apoyo Integral que Brindamos:",
+    "ctaProjectButton": "Conoce más detalles",
+    "overallImpact": {
+      "title": "Nuestro Impacto Total",
+      "subtitle": "Números que reflejan vidas transformadas y comunidades fortalecidas.",
+      "directBeneficiaries": "Beneficiarios Directos",
+     
+      "socialInvestment": "Inversión Social Acumulada"
+    },
+    "finalCta": {
+      "title": "¿Quieres Ser Parte del Cambio?",
+      "subtitle": "Únete a nuestra misión de transformar vidas y comunidades. Tu apoyo puede hacer la diferencia.",
+      "donateButton": "Hacer una Donación",
+      "volunteerButton": "Quiero Ser Voluntario"
+    },
+    "projectsData": [
+      {
+        "id": "pies-contentos",
+        "title": "Pies Contentos",
+        "subtitle": "Calzado y Esenciales con Dignidad",
+        "description": "Proporcionamos calzado de calidad y artículos esenciales de temporada a niños y familias en situación vulnerable, garantizando su bienestar básico, fomentando su autoestima y permitiéndoles participar activamente en su educación y desarrollo.",
+        "workModel": [
+          "Identificación precisa de comunidades vulnerables mediante trabajo de campo y análisis de datos.",
+          "Establecimiento de alianzas estratégicas con líderes comunitarios, escuelas y autoridades locales.",
+          "Organización y ejecución de jornadas de distribución directa, asegurando un trato digno y personalizado.",
+          "Programas de seguimiento para evaluar el impacto a largo plazo y adaptar nuestras intervenciones."
+        ]
+      },
+      {
+        "id": "remote-school",
+        "title": "Escuela Remota Conectando Futuros",
+        "subtitle": "Acceso Digital para la Educación",
+        "description": "Conscientes de la creciente importancia de la tecnología, trabajamos activamente para reducir la brecha digital en las zonas más vulnerables, facilitando el acceso a herramientas y conocimientos que preparan a los estudiantes para el futuro.",
+        "workModel": [
+          "Diagnóstico exhaustivo de las necesidades tecnológicas en escuelas rurales y periurbanas.",
+          "Dotación de equipos de cómputo, tablets y mejora de la conectividad a internet en centros educativos.",
+          "Programas de capacitación para docentes en el uso efectivo de herramientas digitales y pedagogías innovadoras.",
+          "Soporte técnico continuo y creación de comunidades de aprendizaje para el intercambio de buenas prácticas."
+        ]
+      },
+      {
+        "id": "scholarships",
+        "title": "Programa de Becas Impulso",
+        "subtitle": "Apoyo para Continuar Estudiando",
+        "description": "Creemos firmemente que la educación es clave para un mejor futuro. Nuestro programa de becas apoya a jóvenes talentosos de escasos recursos para que puedan continuar y culminar sus estudios, rompiendo ciclos de pobreza.",
+        "scholarshipSupport": [
+          "Apoyo económico mensual destinado a cubrir gastos de colegiatura, materiales y transporte.",
+          "Acceso a tutorías académicas personalizadas y talleres de desarrollo de habilidades blandas.",
+          "Programas de mentoría con profesionales para orientación vocacional y desarrollo de carrera.",
+          "Seguimiento académico y psicosocial para asegurar el bienestar integral del becario.",
+          "Fomento de la participación en actividades de servicio comunitario para fortalecer su liderazgo."
+        ]
+      }
+    ],
+    "navigation": {
+      "nextProject": "Siguiente Proyecto",
+      "prevProject": "Proyecto Anterior",
+      "viewProject": "Ver Proyecto"
+    }
+  },
   "footer": {
     "shortBlurb": "Dedicados a crear un impacto positivo y un futuro sostenible para todos.",
     "quickLinks": "Enlaces Rápidos",

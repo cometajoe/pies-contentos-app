@@ -74,22 +74,28 @@
       "title": "Conoce a Nuestro Equipo",
       "intro": "Somos un grupo de personas dedicadas y apasionadas por crear un impacto positivo. Conoce a las personas detrás de Pies Contentos.",
       "member1": {
-        "name": "Maria Elena Valdez",
-        "role": "Fundadora y Directora",
-        "bio": "Maria Elena es la visionaria detrás de Pies Contentos, impulsada por un profundo compromiso con el bienestar infantil y el desarrollo comunitario en Chihuahua. Su liderazgo ha sido fundamental para nuestro crecimiento e impacto.",
-        "imageUrl": "/team/placeholder-woman1.jpg"
+        "name": "Saúl",
+        "role": "Miembro del equipo directivo",
+        "bio": "Como parte del equipo directivo en Pies Contentos México, mi labor sea enfocado en los últimos años, a la investigación de las distintas zonas marginadas alrededor de Ciudad Juárez, mismas que bajo un censo serán seleccionadas como sede para llevar a cabo el evento Pies Contentos.",
+        "imageUrl": "/team/saul.webp"
       },
       "member2": {
-        "name": "Carlos Sánchez",
-        "role": "Coordinador de Operaciones",
-        "bio": "Carlos asegura que nuestros programas funcionen de manera fluida y eficiente, gestionando la logística y las actividades en terreno con dedicación y una sonrisa.",
-        "imageUrl": "/team/placeholder-man1.jpg"
+        "name": "Christine",
+        "role": "Directora Zona Chihuahua",
+        "bio": "Responsable de coordinar los eventos que se realizan desde hace 10 años, así como de liderar y acompañar a los servidores que hacen posible este ministerio. He tenido el privilegio de participar en eventos en distintas ciudades como Ciudad Juárez, Meoqui, Villa Juárez y Chihuahua capital",
+        "imageUrl": "/team/Christine.webp"
       },
       "member3": {
-        "name": "Laura Fernández",
-        "role": "Gestora de Voluntarios y Comunidad",
-        "bio": "Laura conecta con nuestros increíbles voluntarios y fomenta relaciones sólidas dentro de las comunidades a las que servimos, asegurando que nuestros esfuerzos estén siempre alineados con sus necesidades.",
-        "imageUrl": "/team/placeholder-woman2.jpg"
+        "name": "Daniela",
+        "role": "Miembro del Equipo de Liderazgo",
+        "bio": "Llevo 6 años formando parte de Pies Contentos, participando como auxiliar y líder en las diversas áreas del evento. Esta experiencia me ha permitido crecer personal y profesionalmente, siempre comprometida con el bienestar de la comunidad.I currently collaborate in coordinating the scholarship program, focusing on ensuring that more young people and children.",
+        "imageUrl": "/team/Daniela.webp"
+      },
+      "member4": {
+        "name": "Rubén",
+        "role": "Director regional Ciudad Juárez",
+        "bio": "He sido parte del ministerio de Pies Contentos desde su comienzo, durante esta trayectoria he colaborado en los diferentes eventos que han tenido sede dentro de las ciudades y alrededores de Chihuahua y Ciudad Juárez, soy parte de la directiva de la zona de Ciudad Juárez.",
+        "imageUrl": "/team/ruben.webp"
       }
     },
     "visionMission": {

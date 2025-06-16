@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Users } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
-import TeamMemberCard, {TeamMemberCardMinimal} from './TeamMemberCard'; // Adjusted path
+import  {TeamMemberCardMinimal} from './TeamMemberCard'; // Adjusted path
 import { 
     fadeInUpVariants, 
     staggerContainer,
@@ -11,6 +11,9 @@ const teamMembersData = [
   { id: 'member1', translationKey: 'aboutUsPage.team.member1' },
   { id: 'member2', translationKey: 'aboutUsPage.team.member2' },
   { id: 'member3', translationKey: 'aboutUsPage.team.member3' },
+  { id: 'member4', translationKey: 'aboutUsPage.team.member4' },
+
+ 
 ];
 
 

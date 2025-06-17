@@ -29,7 +29,7 @@ const TeamMemberCardMinimal = ({ member, index }) => {
             <img
               src={member.imageUrl || `https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&h=300&q=80`}
               alt={member.name}
-              className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110"
+              className="w-full h-full object-cover object-top transition-all duration-500 group-hover:scale-110 group-hover:brightness-110"
             />
           </motion.div>
           

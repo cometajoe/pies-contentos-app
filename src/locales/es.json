@@ -25,7 +25,7 @@
     "pageSubtitle": "Tu apoyo puede marcar una diferencia significativa. Descubre cómo puedes contribuir a nuestra causa y ayudarnos a crear más pies contentos.",
     "sponsor": {
       "title": "Apadrina un Niño",
-      "description": "Tu generosa donación beneficia directamente a nuestros becarios proporcionándoles recursos esenciales, apoyo educativo y oportunidades para un futuro más brillante. Cada contribución, grande o pequeña, nos ayuda a continuar nuestra labor.",
+      "description": "Tu generosa aportanción permite brindar a cada uno de los beneficiarios calzado, alimentos y articulos de primera necesidad, lo cual se suma a momentos de diversión y esparcimiento, bajo un mensaje de esperanza.",
       "button": "Dona Ahora"
     },
     "volunteer": {
@@ -66,7 +66,7 @@
     "history": {
       "title": "Nuestra Historia",
       "content": [
-        "Pies Contentos nació de un deseo simple: llevar alegría y apoyo esencial a niños en situaciones vulnerables en México. Todo comenzó en 2014 con un pequeño grupo de individuos apasionados en Ciudad Juárez que vieron una necesidad y decidieron actuar, inicialmente proveyendo tenis y calcetines.",
+        "Pies Contentos nació de un deseo simple: llevar alegría y apoyo esencial a niños en situaciones vulnerables en México. Todo comenzó en 2015 con un pequeño grupo de individuos apasionados en Ciudad Juárez que vieron una necesidad y decidieron actuar, inicialmente proveyendo tenis y calcetines.",
         "Con los años, lo que empezó como una modesta iniciativa ha crecido hasta convertirse en un sistema de apoyo integral. Hemos expandido nuestro alcance a diversas comunidades, forjado alianzas increíbles con organizaciones locales e internacionales y sido testigos de primera mano del poder transformador de la comunidad y la compasión. Nuestro viaje está impulsado por las sonrisas de los niños que servimos y la dedicación de todos los involucrados, desde voluntarios hasta donantes."
       ]
     },
@@ -75,7 +75,7 @@
       "intro": "Somos un grupo de personas dedicadas y apasionadas por crear un impacto positivo. Conoce a las personas detrás de Pies Contentos.",
       "member1": {
         "name": "Saúl",
-        "role": "Miembro del equipo directivo",
+        "role": "Presiente",
         "bio": "Como parte del equipo directivo en Pies Contentos México, mi labor sea enfocado en los últimos años, a la investigación de las distintas zonas marginadas alrededor de Ciudad Juárez, mismas que bajo un censo serán seleccionadas como sede para llevar a cabo el evento Pies Contentos.",
         "imageUrl": "/team/saul.webp"
       },
@@ -87,13 +87,13 @@
       },
       "member3": {
         "name": "Daniela",
-        "role": "Miembro del Equipo de Liderazgo",
-        "bio": "Llevo 6 años formando parte de Pies Contentos, participando como auxiliar y líder en las diversas áreas del evento. Esta experiencia me ha permitido crecer personal y profesionalmente, siempre comprometida con el bienestar de la comunidad.I currently collaborate in coordinating the scholarship program, focusing on ensuring that more young people and children.",
+        "role": "Coordinación de Proyectos Estudiantiles",
+        "bio": "Llevo 6 años formando parte de Pies Contentos, participando como auxiliar y líder en las diversas áreas del evento. Esta experiencia me ha permitido crecer personal y profesionalmente, siempre comprometida con el bienestar de la comunidad.Actualmente colaboro en la coordinación del programa de becas, enfocándome para que más jóvenes y niños puedan beneficiarse.",
         "imageUrl": "/team/Daniela.webp"
       },
       "member4": {
         "name": "Rubén",
-        "role": "Director regional Ciudad Juárez",
+        "role": "Coordinación de vinculación",
         "bio": "He sido parte del ministerio de Pies Contentos desde su comienzo, durante esta trayectoria he colaborado en los diferentes eventos que han tenido sede dentro de las ciudades y alrededores de Chihuahua y Ciudad Juárez, soy parte de la directiva de la zona de Ciudad Juárez.",
         "imageUrl": "/team/rubenHernandez.webp"
       }

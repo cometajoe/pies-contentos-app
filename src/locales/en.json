@@ -25,7 +25,7 @@
     "pageSubtitle": "Your support can make a significant difference. Discover how you can contribute to our cause and help us create more happy feet.",
     "sponsor": {
       "title": "Sponsor a Child",
-      "description": "Your generous donation directly benefits our scholars by providing them with essential resources, educational support, and opportunities for a brighter future. Every contribution, big or small, helps us continue our work.",
+      "description": "Your generous contribution allows us to provide each beneficiary with footwear, food, and essential items, which are complemented by moments of fun and recreation, all under a message of hope.",
       "button": "Donate Now"
     },
     "volunteer": {
@@ -66,17 +66,17 @@
     "history": {
         "title": "Our Story",
         "content": [
-            "Pies Contentos was born from a simple desire: to bring joy and essential support to children in vulnerable situations in Mexico. It all started in 2014 with a small group of passionate individuals in Ciudad Juárez who saw a need and decided to act, initially providing shoes and socks.",
+            "Pies Contentos was born from a simple desire: to bring joy and essential support to children in vulnerable situations in Mexico. It all started in 2015 with a small group of passionate individuals in Ciudad Juárez who saw a need and decided to act, initially providing shoes and socks.",
             "Over the years, what began as a modest initiative has grown into a comprehensive support system. We've expanded our reach across various communities, forged incredible partnerships with local and international organizations, and witnessed firsthand the transformative power of community and compassion. Our journey is fueled by the smiles of the children we serve and the dedication of everyone involved, from volunteers to donors."
         ]
     },
     "team": {
         "title": "Meet Our Team",
         "intro": "We are a group of dedicated individuals passionate about creating a positive impact. Get to know the people behind Pies Contentos.",
-        "member1": { "name": "Saúl", "role": "Executive Team Member", "bio": "As part of the management team at Pies Contentos México, my work over the last few years has focused on researching the various marginalized areas around Ciudad Juárez. These areas, identified through a census, will be selected as the venues for the Pies Contentos event.", "imageUrl": "/team/saul.webp" },
+        "member1": { "name": "Saúl", "role": "President", "bio": "As part of the management team at Pies Contentos México, my work over the last few years has focused on researching the various marginalized areas around Ciudad Juárez. These areas, identified through a census, will be selected as the venues for the Pies Contentos event.", "imageUrl": "/team/saul.webp" },
         "member2": { "name": "Christine", "role": "Regional Director, Chihuahua", "bio": "I'm responsible for coordinating events that have been running for 10 years, as well as leading and supporting the volunteers who make this ministry possible. I've had the privilege of participating in events in various cities, including Ciudad Juárez, Meoqui, Villa Juárez, and Chihuahua.", "imageUrl": "/team/Christine.webp" },
-        "member3": { "name": "Daniela","role": "Leadership Team Member" ,"bio": "I've been a part of Pies Contentos for 6 years, serving as both an assistant and a leader in various areas of the event. This experience has allowed me to grow personally and professionally, always committed to the well-being of the community.I currently collaborate in coordinating the scholarship program, focusing on ensuring that more young people and children", "imageUrl": "/team/Daniela.webp" },
-        "member4": { "name": "Rubén", "role": "Regional Director, Ciudad Juárez", "bio": "I've been a part of the Pies Contentos ministry since its founding. Throughout this journey, I've collaborated in various events held in and around Chihuahua City and Ciudad Juárez. Currently, I'm part of the executive team for the Ciudad Juárez area.", "imageUrl": "/team/ruben.webp" }
+        "member3": { "name": "Daniela","role": "Coordinator of Student Projects" ,"bio": "I've been a part of Pies Contentos for 6 years, serving as both an assistant and a leader in various areas of the event. This experience has allowed me to grow personally and professionally, always committed to the well-being of the community.I currently collaborate in coordinating the scholarship program, focusing on ensuring that more young people and children", "imageUrl": "/team/Daniela.webp" },
+        "member4": { "name": "Rubén", "role": "Outreach Coordinator", "bio": "I've been a part of the Pies Contentos ministry since its founding. Throughout this journey, I've collaborated in various events held in and around Chihuahua City and Ciudad Juárez. Currently, I'm part of the executive team for the Ciudad Juárez area.", "imageUrl": "/team/ruben.webp" }
     },
     "visionMission": {
         "title": "Our Vision & Mission",

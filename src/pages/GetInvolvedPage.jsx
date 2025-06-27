@@ -137,6 +137,25 @@ const GetInvolvedPage = () => {
               <div>
                 <label htmlFor="phone" className={formLabelStyles}>{t('getInvolved.volunteer.phoneLabel')}</label>
                 <input type="tel" name="phone" id="phone" value={volunteerForm.phone} onChange={handleVolunteerChange} className={formInputStyles} />
+              </div>        
+              <div>
+                <label htmlFor="aged" className={formLabelStyles}>{t('getInvolved.volunteer.aged')}</label>
+                <input type="number" name="aged" id="aged" value={volunteerForm.aged} onChange={handleVolunteerChange} className={formInputStyles} />
+              </div>
+              <div>
+                <label htmlFor="gender" className={formLabelStyles}>{t('getInvolved.volunteer.gender')}</label>
+                <select name="gender" id="gender" value={volunteerForm.gender} onChange={handleVolunteerChange} className={formInputStyles}>
+                  <option value="male">{t('getInvolved.volunteer.genderOptions.male')}</option>
+                  <option value="female">{t('getInvolved.volunteer.genderOptions.female')}</option>
+                </select>
+              </div>
+              <div>
+                <label htmlFor="county" className={formLabelStyles}>{t('getInvolved.volunteer.county')}</label>
+                <input type="text" name="county" id="county" value={volunteerForm.county} onChange={handleVolunteerChange} className={formInputStyles} />
+              </div>
+              <div>
+                <label htmlFor="township" className={formLabelStyles}>{t('getInvolved.volunteer.township')}</label>
+                <input type="text" name="township" id="township" value={volunteerForm.township} onChange={handleVolunteerChange} className={formInputStyles} />
               </div>
               <div>
                 <label htmlFor="interest" className={formLabelStyles}>{t('getInvolved.volunteer.interestLabel')}</label>

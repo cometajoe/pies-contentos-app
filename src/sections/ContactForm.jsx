@@ -158,8 +158,7 @@ const handleSubmit = async (e) => {
                     onChange={handleChange}
                     className="w-full px-4 py-3 text-slate-700 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none"
                   >
-                    <option value="general">{t('contact.reasonOptions.general')}</option>
-                    <option value="volunteer">{t('contact.reasonOptions.volunteer')}</option>
+                    <option value="general">{t('contact.reasonOptions.general')}</option>                  
                     <option value="donation">{t('contact.reasonOptions.donation')}</option>
                     <option value="press">{t('contact.reasonOptions.press')}</option>
                   </select>
@@ -225,41 +224,7 @@ const handleSubmit = async (e) => {
               </div>
             </div>
 
-            {/* Google Maps */}
-            <div className="bg-white rounded-2xl p-2 shadow-sm border border-gray-100">
-              <div className="w-full h-64 md:h-80 rounded-xl overflow-hidden">
-                <iframe
-                  src={GOOGLE_MAPS_EMBED_URL}
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Ubicación de la organización"
-                />
-              </div>
-              
-              {/* Quick Actions */}
-              <div className="flex gap-2 mt-4">
-                <a
-                  href="https://maps.google.com/?q=Brasil+776+Ex+Hipódromo+32040+Juárez+Chih"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex-1 bg-blue-50 text-blue-700 py-2 px-4 rounded-lg text-sm font-medium hover:bg-blue-100 transition-colors duration-200 text-center"
-                >
-                  Ver en Google Maps
-                </a>
-                <a
-                  href="https://maps.google.com/maps/dir//Brasil+776+Ex+Hipódromo+32040+Juárez+Chih"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex-1 bg-gray-50 text-gray-700 py-2 px-4 rounded-lg text-sm font-medium hover:bg-gray-100 transition-colors duration-200 text-center"
-                >
-                  Obtener direcciones
-                </a>
-              </div>
-            </div>
+           
           </motion.div>
         </div>
       </div>

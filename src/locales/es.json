@@ -38,7 +38,15 @@
       "interestLabel": "Área de Interés / Habilidades",
       "messageLabel": "¿Por qué quieres ser voluntario en Pies Contentos?",
       "submitButton": "Enviar Solicitud",
-      "successMessage": "¡Gracias por tu interés! Nos pondremos en contacto contigo pronto."
+      "successMessage": "¡Gracias por tu interés! Nos pondremos en contacto contigo pronto.",
+      "county": "Estado",
+      "township": "Municipio",
+      "aged": "Edad",
+      "gender": "Género",
+      "genderOptions": {
+        "male": "Masculino",
+        "female": "Femenino"      
+      }
     },
     "partner": {
       "title": "Patrocina",
@@ -75,7 +83,7 @@
       "intro": "Somos un grupo de personas dedicadas y apasionadas por crear un impacto positivo. Conoce a las personas detrás de Pies Contentos.",
       "member1": {
         "name": "Saúl",
-        "role": "Presiente",
+        "role": "Presidente",
         "bio": "Como parte del equipo directivo en Pies Contentos México, mi labor sea enfocado en los últimos años, a la investigación de las distintas zonas marginadas alrededor de Ciudad Juárez, mismas que bajo un censo serán seleccionadas como sede para llevar a cabo el evento Pies Contentos.",
         "imageUrl": "/team/saul.webp"
       },

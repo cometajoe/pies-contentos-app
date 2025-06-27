@@ -38,7 +38,15 @@
       "interestLabel": "Area of Interest / Skills",
       "messageLabel": "Why do you want to volunteer with Pies Contentos?",
       "submitButton": "Send Application",
-      "successMessage": "Thank you for your interest! We will contact you soon."
+      "successMessage": "Thank you for your interest! We will contact you soon.",
+      "county": "County",
+      "township": "Township",
+      "aged": "Age",
+      "gender": "Gender",
+      "genderOptions": {
+        "male": "Male",
+        "female": "Female"
+      }
     },
     "partner": {
       "title": "Become a Partner",

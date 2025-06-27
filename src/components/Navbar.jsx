@@ -25,6 +25,7 @@ const Navbar = () => {
     { name: t('navbar.about'), href: 'about-us' },
     { name: t('navbar.getInvolved'), href: 'get-involved' },
     { name: t('navbar.ourWork'), href: 'our-work' },   
+    { name: t('navbar.events'), href: 'events' },
     { name: t('navbar.contact'), href: 'contact-us' },
   ];
 

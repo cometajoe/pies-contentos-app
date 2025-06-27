@@ -3,6 +3,7 @@
     "home": "Inicio",
     "about": "Nosotros",
     "ourWork": "Nuestro Trabajo",
+    "events": "Eventos",
     "getInvolved": "Colabora",
     "contact": "Contacto",
     "donate": "Donar"
@@ -265,5 +266,125 @@
     },
     "messageLabel": "Tu Mensaje",
     "submitButton": "Enviar Mensaje"
+  },
+  "eventsPage": {
+    "pageTitle": "Eventos",
+    "pageSubtitle": "Únete a nuestros eventos comunitarios y ve cómo hacemos la diferencia juntos",
+    "mainSectionTitle": "Eventos Comunitarios",
+    "mainSectionIntro": "Nuestros eventos reúnen a comunidades, voluntarios y beneficiarios para crear momentos de alegría, aprendizaje y transformación. Descubre nuestros próximos eventos y revive el impacto de reuniones pasadas.",
+    "hero": {
+      "badge": "Apoyando a Niños de 6-12 Años",
+      "title": "Cada Paso Importa",
+      "subtitle": "Únete a nosotros para proporcionar zapatos, calcetines y artículos de temporada a niños en situaciones vulnerables"
+    },
+    "upcomingEvents": {
+      "title": "Próximos Eventos",
+      "subtitle": "Marca tu calendario y únete a nosotros para hacer la diferencia",
+      "noEvents": "No hay eventos próximos en este momento. ¡Vuelve a revisar pronto!",
+      "registerButton": "Registrarse Ahora",
+      "learnMoreButton": "Saber Más",
+      "impact": "Impacto"
+    },
+    "events": {
+      "backToSchool": {
+        "title": "Campaña de Regreso a Clases",
+        "date": "15 de Agosto, 2025",
+        "location": "Centro Comunitario",
+        "description": "Proporcionando zapatos y útiles escolares para más de 200 niños",
+        "impact": "200 niños"
+      },
+      "winterWarmth": {
+        "title": "Campaña de Calor Invernal",
+        "date": "10 de Diciembre, 2025",
+        "location": "Parque del Centro",
+        "description": "Distribución de calcetines cálidos y botas de invierno",
+        "impact": "150 familias"
+      },
+      "springFestival": {
+        "title": "Festival de Primavera",
+        "date": "22 de Marzo, 2025",
+        "location": "Plaza de la Ciudad",
+        "description": "Celebración comunitaria con estaciones de ajuste de zapatos",
+        "impact": "300+ niños"
+      }
+    },
+    "gallery": {
+      "title": "Momentos de Alegría",
+      "images": {
+        "childrenReceiving": "Niños recibiendo zapatos nuevos",
+        "volunteersHelping": "Voluntarios ayudando a ajustar zapatos",
+        "communitySetup": "Preparación del evento comunitario",
+        "happyChildren": "Niños felices con calzado nuevo",
+        "parentChild": "Ajuste de zapatos padre-hijo"
+      }
+    },
+    "testimonials": {
+      "title": "Voces de Nuestra Comunidad",
+      "testimonies": {
+        "volunteer1": {
+          "text": "Ver la alegría en los rostros de estos niños cuando reciben zapatos nuevos es indescriptible. No es solo calzado – es dignidad y esperanza.",
+          "author": "María Rodríguez",
+          "role": "Coordinadora de Voluntarios"
+        },
+        "parent1": {
+          "text": "Mi hija no podía dejar de sonreír cuando recibió sus zapatos nuevos. Gracias por hacerla sentir especial y cuidada.",
+          "author": "Carmen Silva",
+          "role": "Madre"
+        },
+        "volunteer2": {
+          "text": "Cada sábado siendo voluntario aquí me recuerda por qué la comunidad importa. Estos niños merecen todo el amor que podemos dar.",
+          "author": "James Chen",
+          "role": "Voluntario Regular"
+        }
+      }
+    },
+    "yearHighlights": {
+      "title": "Impacto de Este Año",
+      "stats": {
+        "childrenHelped": {
+          "number": "1,250",
+          "label": "Niños Ayudados"
+        },
+        "shoesDonated": {
+          "number": "2,500",
+          "label": "Zapatos Donados"
+        },
+        "eventsHosted": {
+          "number": "45",
+          "label": "Eventos Realizados"
+        },
+        "volunteers": {
+          "number": "300",
+          "label": "Voluntarios"
+        }
+      }
+    },
+    "cta": {
+      "title": "Sé Parte del Cambio",
+      "subtitle": "Cada donación, cada hora de voluntariado, cada acto de bondad hace la diferencia en la vida de un niño",
+      "volunteerButton": "Sé Voluntario Ahora",
+      "donateButton": "Dona Zapatos"
+    },
+    "pastEvents": {
+      "title": "Eventos Pasados",
+      "subtitle": "Revive los momentos que marcaron la diferencia",
+      "viewGalleryButton": "Ver Galería",
+      "location": "Ubicación",
+      "date": "Fecha",
+      "participants": "Participantes",
+      "beneficiaries": "Beneficiarios"
+    },
+    "locations": {
+      "chihuahua": "Chihuahua",
+      "ciudadJuarez": "Ciudad Juárez",
+      "allLocations": "Todas las Ubicaciones"
+    },
+    "eventTypes": {
+      "distribution": "Evento de Distribución",
+      "volunteer": "Capacitación de Voluntarios",
+      "community": "Alcance Comunitario",
+      "fundraiser": "Recaudación de Fondos",
+      "workshop": "Taller Educativo"
+    }
   }
 }

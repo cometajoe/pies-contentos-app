@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader'; //
 import { HeartHandshake, Users, Briefcase, ShoppingCart, Send, CheckCircle } from 'lucide-react';
 
 // Imagen de cabecera (puedes cambiarla por una más adecuada)
-const pageHeaderImage = 'https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=1200&q=80&fm=jpg&crop=entropy';
+const pageHeaderImage = 'volunteer/volunteer_cover.PNG';
 
 const GetInvolvedPage = () => {
   const { t } = useLanguage(); //
@@ -104,9 +104,14 @@ const GetInvolvedPage = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <div className="md:sticky md:top-24"> {/* Sticky para la imagen */}
+          <div className="md:sticky md:top-24 flex flex-col gap-4"> {/* Sticky para la imagen */}
             <img
-              src="volunteer/voluntario.webp" // Placeholder más vertical
+              src="volunteer/volunteer2.webp" // Placeholder más vertical
+              alt={t('getInvolved.volunteer.title')}
+              className="rounded-xl shadow-2xl object-cover w-full h-auto max-h-[500px] md:max-h-[600px]"
+            />
+            <img
+              src="volunteer/volunteer3.webp" // Placeholder más vertical
               alt={t('getInvolved.volunteer.title')}
               className="rounded-xl shadow-2xl object-cover w-full h-auto max-h-[500px] md:max-h-[600px]"
             />

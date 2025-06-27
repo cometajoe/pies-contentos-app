@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "About Us",
     "ourWork": "Our Work",
+    "events": "Events",
     "contact": "Contact",
     "getInvolved": "Get Involved",
     "donate": "Donate"
@@ -247,5 +248,125 @@
     },
     "messageLabel": "Your Message",
     "submitButton": "Send Message"
+  },
+  "eventsPage": {
+    "pageTitle": "Events",
+    "pageSubtitle": "Join us in our community events and see how we make a difference together",
+    "mainSectionTitle": "Community Events",
+    "mainSectionIntro": "Our events bring together communities, volunteers, and beneficiaries to create moments of joy, learning, and transformation. Discover our upcoming events and relive the impact of past gatherings.",
+    "hero": {
+      "badge": "Supporting Children 6-12",
+      "title": "Every Step Matters",
+      "subtitle": "Join us in providing shoes, socks, and seasonal items to children in vulnerable situations"
+    },
+    "upcomingEvents": {
+      "title": "Upcoming Events",
+      "subtitle": "Mark your calendar and join us in making a difference",
+      "noEvents": "No upcoming events at the moment. Check back soon!",
+      "registerButton": "Register Now",
+      "learnMoreButton": "Learn More",
+      "impact": "Impact"
+    },
+    "events": {
+      "backToSchool": {
+        "title": "Back to School Drive",
+        "date": "August 15, 2025",
+        "location": "Community Center",
+        "description": "Providing shoes and school supplies for 200+ children",
+        "impact": "200 children"
+      },
+      "winterWarmth": {
+        "title": "Winter Warmth Campaign",
+        "date": "December 10, 2025",
+        "location": "Downtown Park",
+        "description": "Warm socks and winter boots distribution",
+        "impact": "150 families"
+      },
+      "springFestival": {
+        "title": "Spring Festival",
+        "date": "March 22, 2025",
+        "location": "City Plaza",
+        "description": "Community celebration with shoe fitting stations",
+        "impact": "300+ kids"
+      }
+    },
+    "gallery": {
+      "title": "Moments of Joy",
+      "images": {
+        "childrenReceiving": "Children receiving new shoes",
+        "volunteersHelping": "Volunteers helping fit shoes",
+        "communitySetup": "Community event setup",
+        "happyChildren": "Happy children with new footwear",
+        "parentChild": "Parent-child shoe fitting"
+      }
+    },
+    "testimonials": {
+      "title": "Voices from Our Community",
+      "testimonies": {
+        "volunteer1": {
+          "text": "Seeing the joy on these children's faces when they receive new shoes is indescribable. It's not just footwear – it's dignity and hope.",
+          "author": "Maria Rodriguez",
+          "role": "Volunteer Coordinator"
+        },
+        "parent1": {
+          "text": "My daughter couldn't stop smiling when she got her new shoes. Thank you for making her feel special and cared for.",
+          "author": "Carmen Silva",
+          "role": "Parent"
+        },
+        "volunteer2": {
+          "text": "Every Saturday volunteering here reminds me why community matters. These kids deserve every bit of love we can give.",
+          "author": "James Chen",
+          "role": "Regular Volunteer"
+        }
+      }
+    },
+    "yearHighlights": {
+      "title": "This Year's Impact",
+      "stats": {
+        "childrenHelped": {
+          "number": "1,250",
+          "label": "Children Helped"
+        },
+        "shoesDonated": {
+          "number": "2,500",
+          "label": "Shoes Donated"
+        },
+        "eventsHosted": {
+          "number": "45",
+          "label": "Events Hosted"
+        },
+        "volunteers": {
+          "number": "300",
+          "label": "Volunteers"
+        }
+      }
+    },
+    "cta": {
+      "title": "Be Part of the Change",
+      "subtitle": "Every donation, every volunteer hour, every act of kindness makes a difference in a child's life",
+      "volunteerButton": "Volunteer Now",
+      "donateButton": "Donate Shoes"
+    },
+    "pastEvents": {
+      "title": "Past Events",
+      "subtitle": "Relive the moments that made a difference",
+      "viewGalleryButton": "View Gallery",
+      "location": "Location",
+      "date": "Date",
+      "participants": "Participants",
+      "beneficiaries": "Beneficiaries"
+    },
+    "locations": {
+      "chihuahua": "Chihuahua",
+      "ciudadJuarez": "Ciudad Juárez",
+      "allLocations": "All Locations"
+    },
+    "eventTypes": {
+      "distribution": "Distribution Event",
+      "volunteer": "Volunteer Training",
+      "community": "Community Outreach",
+      "fundraiser": "Fundraiser",
+      "workshop": "Educational Workshop"
+    }
   }
 }

@@ -55,12 +55,15 @@ const EventsPage = () => {
     }
   ];
 
+
+  //get images from the events folder images are JPG
+
   const galleryImages = [
-    { id: 1, alt: t('eventsPage.gallery.images.childrenReceiving'), bg: "from-sky-400 to-blue-500" },
-    { id: 2, alt: t('eventsPage.gallery.images.volunteersHelping'), bg: "from-emerald-400 to-teal-500" },
-    { id: 3, alt: t('eventsPage.gallery.images.communitySetup'), bg: "from-sky-400 to-indigo-500" },
-    { id: 4, alt: t('eventsPage.gallery.images.happyChildren'), bg: "from-emerald-400 to-cyan-500" },
-    { id: 5, alt: t('eventsPage.gallery.images.parentChild'), bg: "from-sky-400 to-blue-500" }
+    { id: 1, alt: t('eventsPage.gallery.images.childrenReceiving'), bg: "from-sky-400 to-blue-500", src: "/events/DSC_0824.jpg" },
+    { id: 2, alt: t('eventsPage.gallery.images.volunteersHelping'), bg: "from-emerald-400 to-teal-500", src: "/events/DSC_0825.jpg" },
+    { id: 3, alt: t('eventsPage.gallery.images.communitySetup'), bg: "from-sky-400 to-indigo-500", src: "/events/DSC_0826.jpg" },
+    { id: 4, alt: t('eventsPage.gallery.images.happyChildren'), bg: "from-emerald-400 to-cyan-500", src: "/events/DSC_0827.jpg" },
+    { id: 5, alt: t('eventsPage.gallery.images.parentChild'), bg: "from-sky-400 to-blue-500", src: "/events/DSC_0832.jpg" }
   ];
 
   const nextTestimony = () => {
@@ -139,7 +142,7 @@ const EventsPage = () => {
           </div>
         </div>
       </section>
-
+ 
       {/* Gallery */}
       <section className="py-16 px-6 bg-gradient-to-br from-emerald-50/30 to-sky-50/30">
         <div className="max-w-4xl mx-auto">
@@ -151,6 +154,12 @@ const EventsPage = () => {
           </div>
           <div className="relative">
             <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
+                {/* <img src='events/DSC_0824.jpg' alt={galleryImages[currentGallery].alt}  className="w-full h-full object-cover"  /> */}
+                {/* <img
+              src="volunteer/volunteer2.webp" // Placeholder más vertical
+              alt={t('getInvolved.volunteer.title')}
+              className="rounded-xl shadow-2xl object-cover w-full h-auto max-h-[500px] md:max-h-[600px]"
+            /> */}
               <div className={`w-full h-full bg-gradient-to-br ${galleryImages[currentGallery].bg} flex items-center justify-center`}>
                 <div className="text-white text-center">
                   <Heart className="w-16 h-16 mx-auto mb-4 animate-pulse" />
@@ -265,12 +274,14 @@ const EventsPage = () => {
             {t('eventsPage.cta.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+            {/* //change these buttons to link to the get-involved page */}
+            <a href="/get-involved" className="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
               {t('eventsPage.cta.volunteerButton')}
-            </button>
-            <button className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+            </a>
+            <a href="/donate" className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
               {t('eventsPage.cta.donateButton')}
-            </button>
+            </a>
+           
           </div>
         </div>
       </section>

@@ -368,5 +368,13 @@
       "fundraiser": "Fundraiser",
       "workshop": "Educational Workshop"
     }
+  },
+  "upcomingEvent": {
+    "title": "Upcoming Event",
+    "date": "August 15, 2025",
+    "location": "Primaría Ramón López Pérez",
+    "description": "Providing shoes and school supplies for 200+ children",
+    "impact": "200 children will benefit",
+    "impactStatement": "💝 Every donation helps us provide quality footwear and essential items to children in need."
   }
 }

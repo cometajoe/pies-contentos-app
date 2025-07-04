@@ -288,7 +288,7 @@
     "events": {
       "backToSchool": {
         "title": "Campaña de Regreso a Clases",
-        "date": "15 de Agosto, 2025",
+        "date": "16 de Agosto, 2025",
         "location": "Centro Comunitario",
         "description": "Proporcionando zapatos y útiles escolares para más de 200 niños",
         "impact": "200 niños"
@@ -386,5 +386,13 @@
       "fundraiser": "Recaudación de Fondos",
       "workshop": "Taller Educativo"
     }
+  },
+  "upcomingEvent": {
+    "title": "Próximo Evento",
+    "date": "16 de Agosto, 2025",
+    "location": "Primaría Ramón López Pérez",
+    "description": "Proporcionando zapatos y útiles escolares para más de 200 niños",
+    "impact": "200 niños serán beneficiados",
+    "impactStatement": "💝 Cada donación ayuda a proporcionar calzado de calidad y artículos esenciales a niños en situación vulnerable."
   }
 }

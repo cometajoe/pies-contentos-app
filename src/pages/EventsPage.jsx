@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Heart, Calendar, MapPin, Users, Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
+import { Heart, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import { useTranslations } from '../hooks/useTranslations';
 import EventsHeroSection from '../components/events/EventsHeroSection';
 import UpcomingEventsSection from '../components/events/UpcomingEventsSection';
 import EventsGallerySection from '../components/events/EventsGallerySection';
+
 
 const VIDEO_TESTIMONY_URL = "https://nyc.cloud.appwrite.io/v1/storage/buckets/6829349e001bbcc3ff52/files/6868473800373bb0633f/view?project=6829347e0004825b2c57&mode=admin";
 
@@ -70,7 +71,26 @@ const EventsPage = () => {
     { id: 4, alt: t('eventsPage.gallery.images.happyChildren'), bg: "from-emerald-400 to-cyan-500", src: "events/DSC_0827.JPG" },
     { id: 5, alt: t('eventsPage.gallery.images.parentChild'), bg: "from-sky-400 to-blue-500", src: "events/DSC_0832.JPG" }
   ];
+  const galleryImages2 = [
+    { id: 1, alt: "2023 Event Photo 1", bg: "from-sky-400 to-blue-500", src: "events/2023/DSC_0013.JPG" },
+    { id: 2, alt: "2023 Event Photo 2", bg: "from-emerald-400 to-teal-500", src: "events/2023/DSC_0038.JPG" },
+    { id: 3, alt: "2023 Event Photo 3", bg: "from-sky-400 to-indigo-500", src: "events/2023/DSC_0053.JPG" },
+    { id: 4, alt: "2023 Event Photo 4", bg: "from-emerald-400 to-cyan-500", src: "events/2023/DSC_0081.JPG" },
+    { id: 5, alt: "2023 Event Photo 5", bg: "from-sky-400 to-blue-500", src: "events/2023/DSC_0091.JPG" },
+    { id: 6, alt: "2023 Event Photo 6", bg: "from-emerald-400 to-teal-500", src: "events/2023/DSC_0093.JPG" },
+    { id: 7, alt: "2023 Event Photo 7", bg: "from-sky-400 to-indigo-500", src: "events/2023/DSC_0099.JPG" },
+    { id: 8, alt: "2023 Event Photo 8", bg: "from-emerald-400 to-cyan-500", src: "events/2023/DSC_0257.JPG" },
+    { id: 9, alt: "2023 Event Photo 9", bg: "from-sky-400 to-blue-500", src: "events/2023/DSC_0277.JPG" }
+  ];
 
+  const galleryImages2024 = [
+    { id: 1, alt: "2024 Event Photo 1", bg: "from-sky-400 to-blue-500", src: "events/2024/DSC_0034.JPG" },
+    { id: 2, alt: "2024 Event Photo 2", bg: "from-emerald-400 to-teal-500", src: "events/2024/DSC_0049.JPG" },
+    { id: 3, alt: "2024 Event Photo 3", bg: "from-sky-400 to-indigo-500", src: "events/2024/DSC_0061.JPG" },
+    { id: 4, alt: "2024 Event Photo 4", bg: "from-emerald-400 to-cyan-500", src: "events/2024/DSC_0062.JPG" },
+    { id: 5, alt: "2024 Event Photo 5", bg: "from-sky-400 to-blue-500", src: "events/2024/DSC_0944.JPG" },
+    { id: 6, alt: "2024 Event Photo 6", bg: "from-emerald-400 to-teal-500", src: "events/2024/DSC_0982.JPG" }
+  ];
   const nextTestimony = () => {
     setCurrentTestimony((prev) => (prev + 1) % testimonies.length);
   };
@@ -104,12 +124,12 @@ const EventsPage = () => {
        
         <EventsGallerySection
           title={t('eventsPage.gallery.title')}
-          galleryImages={galleryImages}
+          galleryImages={galleryImages2}
         />
 
 <EventsGallerySection
           title={t('eventsPage.gallery.title')}
-          galleryImages={galleryImages}
+          galleryImages={galleryImages2024}
 
         />
       </div>

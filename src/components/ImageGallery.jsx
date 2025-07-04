@@ -63,7 +63,7 @@ const ImageGallery = ({ images }) => {
                 />
               </motion.div>
               
-              {selectedImage.caption && (
+              {/* {selectedImage.caption && (
                 <motion.div
                   className="mt-4 text-center text-white text-lg"
                   initial={{ opacity: 0, y: 20 }}
@@ -71,7 +71,7 @@ const ImageGallery = ({ images }) => {
                 >
                   {selectedImage.caption}
                 </motion.div>
-              )}
+              )} */}
             </div>
 
             <motion.button

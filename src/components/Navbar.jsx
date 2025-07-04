@@ -48,7 +48,7 @@ const Navbar = () => {
               className="flex items-center space-x-2 text-2xl font-bold text-sky-700 hover:text-sky-800 transition-colors duration-150"
             >
              
-                 <img src="logo_piescontentos.png" alt="Logo" className="w-10 h-10" /> {/* Cambia la ruta al logo */}
+                 <img src="/logo_piescontentos.png" alt="Logo" className="w-10 h-10" /> {/* Cambia la ruta al logo */}
             
               <span className='font-gochi text-3xl'>Pies Contentos</span>
             </a>

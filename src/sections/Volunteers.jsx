@@ -12,7 +12,7 @@ const volunteerImages = [
   { src: 'volunteer/dsc_0218.webp', alt: 'Voluntaria enseñando a una niña', caption: 'Clases de apoyo personalizadas.' },
   { src: 'volunteer/merch.webp', alt: 'Grupo de voluntarios sonriendo', caption: 'Nuestro equipo después de una jornada exitosa.' },
   { src: 'volunteer/voluntario.webp', alt: 'Voluntarios limpiando un parque', caption: 'Proyectos de mejora comunitaria.' },
-  { src: 'https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?auto=format&fit=crop&w=800&q=60', alt: 'Voluntario jugando con niños', caption: 'El juego es parte fundamental del aprendizaje.' },
+  { src: 'volunteer/volunteer_food.webp', alt: 'Voluntario sirviendo comida', caption: 'Voluntarios sirviendo comida a la comunidad.' },
 ];
 
 const Volunteers = () => {

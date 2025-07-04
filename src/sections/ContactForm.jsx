@@ -39,7 +39,7 @@ const handleSubmit = async (e) => {
     setSubmitStatus({ submitted: false, success: false, message: '' }); // Reset status
 
     try {
-      const response = await fetch('http://localhost:3001/api/send-email', { // URL de tu backend
+      const response = await fetch('/send-email.php', { // URL to your PHP file
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -204,7 +204,7 @@ const handleSubmit = async (e) => {
           >
             
             {/* Contact Information */}
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100  h-full">
               <h3 className="text-xl font-semibold text-gray-900 mb-6">
                 Información de contacto
               </h3>

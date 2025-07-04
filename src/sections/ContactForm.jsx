@@ -87,20 +87,20 @@ const handleSubmit = async (e) => {
   ];
 
   return (
-    <section id="contact" ref={ref} className="bg-gray-50 py-24">
+    <section id="contact" ref={ref} className="bg-gradient-to-br from-slate-50 via-white to-sky-50 py-20 sm:py-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
         <motion.div
-          className="text-center max-w-2xl mx-auto mb-16 bg-gradient-to-b "
+          className="text-center max-w-2xl mx-auto mb-16"
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl sm:text-5xl font-bold text-slate-800 font-gochi-hand text-sky-700 mb-4">
             {t('contact.title')}
           </h2>
-          <p className="text-gray-600 text-lg">
+          <p className="text-slate-600 text-lg">
             {t('contact.subtitle')}
           </p>
         </motion.div>
@@ -113,15 +113,15 @@ const handleSubmit = async (e) => {
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-              <h3 className="text-xl font-semibold text-gray-900 mb-6">
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
+              <h3 className="text-xl font-semibold text-slate-800 mb-6">
                 Envíanos un mensaje
               </h3>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-slate-700 mb-2">
                       {t('contact.nameLabel')}
                     </label>
                     <input
@@ -129,12 +129,12 @@ const handleSubmit = async (e) => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border text-slate-700 border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none"
+                      className="w-full px-4 py-3 border text-slate-700 border-slate-200 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-all duration-200 outline-none"
                       required
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-slate-700 mb-2">
                       {t('contact.emailLabel')}
                     </label>
                     <input
@@ -142,21 +142,21 @@ const handleSubmit = async (e) => {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border text-slate-700 border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none"
+                      className="w-full px-4 py-3 border text-slate-700 border-slate-200 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-all duration-200 outline-none"
                       required
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-slate-700 mb-2">
                     {t('contact.reasonLabel')}
                   </label>
                   <select
                     name="reason"
                     value={formData.reason}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 text-slate-700 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none"
+                    className="w-full px-4 py-3 text-slate-700 border border-slate-200 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-all duration-200 outline-none"
                   >
                     <option value="general">{t('contact.reasonOptions.general')}</option>                  
                     <option value="donation">{t('contact.reasonOptions.donation')}</option>
@@ -165,7 +165,7 @@ const handleSubmit = async (e) => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-slate-700 mb-2">
                     {t('contact.messageLabel')}
                   </label>
                   <textarea
@@ -173,7 +173,7 @@ const handleSubmit = async (e) => {
                     value={formData.message}
                     onChange={handleChange}
                     rows="5"
-                    className="w-full px-4 py-3 border text-slate-700 border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none resize-none"
+                    className="w-full px-4 py-3 border text-slate-700 border-slate-200 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-all duration-200 outline-none resize-none"
                     required
                   />
                 </div>
@@ -181,7 +181,7 @@ const handleSubmit = async (e) => {
                 <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full flex items-center justify-center bg-sky-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
+                className="w-full flex items-center justify-center bg-gradient-to-r from-sky-600 to-sky-500 text-white py-3 px-6 rounded-lg font-semibold hover:from-sky-700 hover:to-sky-600 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed transform hover:scale-105"
               >
                 {isSubmitting ? (
                   <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -204,20 +204,20 @@ const handleSubmit = async (e) => {
           >
             
             {/* Contact Information */}
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100  h-full">
-              <h3 className="text-xl font-semibold text-gray-900 mb-6">
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 h-full">
+              <h3 className="text-xl font-semibold text-slate-800 mb-6">
                 Información de contacto
               </h3>
               
               <div className="space-y-6">
                 {contactInfo.map((item, index) => (
                   <div key={index} className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center">
-                      <item.icon className="w-5 h-5 text-gray-600" />
+                    <div className="flex-shrink-0 w-10 h-10 bg-sky-50 rounded-lg flex items-center justify-center">
+                      <item.icon className="w-5 h-5 text-sky-600" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-gray-900 mb-1">{item.title}</h4>
-                      <p className="text-gray-600 text-sm">{item.content}</p>
+                      <h4 className="font-medium text-slate-800 mb-1">{item.title}</h4>
+                      <p className="text-slate-600 text-sm">{item.content}</p>
                     </div>
                   </div>
                 ))}

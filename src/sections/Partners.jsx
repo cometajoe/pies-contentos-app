@@ -33,10 +33,10 @@ const Partners = () => {
   };
 
   return (
-    <section id="partners" ref={ref} className="bg-slate-50 py-20 sm:py-28">
+    <section id="partners" ref={ref} className="bg-gradient-to-br from-slate-50 via-white to-sky-50 py-20 sm:py-28">
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-slate-800 font-gochi-hand text-sky-800">
+          <h2 className="text-4xl sm:text-5xl font-bold text-slate-800 font-gochi-hand text-sky-700">
             {t('partners.title')}
           </h2>
           <p className="mt-4 text-lg text-slate-600">
@@ -61,16 +61,18 @@ const Partners = () => {
                 {/* Contenedor del Logo */}
                 <div 
                   className="
-                    h-32 bg-white rounded-xl shadow-sm p-6
+                    h-32 bg-white rounded-xl shadow-sm border border-slate-100 p-6
                     flex items-center justify-center 
                     transition-all duration-300 ease-in-out
-                    group-hover:shadow-lg group-hover:scale-105
+                    group-hover:shadow-lg group-hover:scale-105 group-hover:border-sky-200
+                    group-hover:bg-gradient-to-br group-hover:from-white group-hover:to-sky-50
                   "
                 >
                   <div 
                     className="
                       transition-all duration-300 ease-in-out
                       filter grayscale group-hover:grayscale-0
+                      group-hover:scale-110
                     "
                   >
                     {partner.logoSrc ? (

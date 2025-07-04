@@ -92,12 +92,12 @@ const Hero = () => {
 
       {/* Elementos decorativos (ocultos en móvil) */}
       <motion.div
-        className="hidden md:block absolute top-20 left-10 w-20 h-20 bg-sky-400/20 rounded-full blur-xl"
+        className="hidden md:block absolute top-20 left-10 w-20 h-20 bg-sky-400/30 rounded-full blur-xl"
         variants={floatingElementVariants}
         animate="animate"
       />
       <motion.div
-        className="hidden md:block absolute bottom-32 right-16 w-32 h-32 bg-white/10 rounded-full blur-2xl"
+        className="hidden md:block absolute bottom-32 right-16 w-32 h-32 bg-sky-300/20 rounded-full blur-2xl"
         variants={floatingElementVariants}
         animate="animate"
         transition={{ delay: 1 }}

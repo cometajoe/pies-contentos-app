@@ -1,4 +1,3 @@
-
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
@@ -31,8 +30,7 @@ const Volunteers = () => {
   };
 
   return (
-    // Tarea 4: Usamos un gradiente sutil para el fondo
-    <section id="volunteers" ref={ref} className="bg-gradient-to-b from-sky-50 to-sky-200 py-20 sm:py-28">
+    <section id="volunteers" ref={ref} className="bg-gradient-to-br from-sky-50 via-white to-sky-100 py-20 sm:py-28">
       <motion.div
         className="container mx-auto px-6 text-center"
         variants={containerVariants}
@@ -41,7 +39,7 @@ const Volunteers = () => {
       >
         {/* Título y subtítulo */}
         <motion.div variants={itemVariants} className="max-w-3xl mx-auto mb-12 md:mb-16">
-          <h2 className="text-4xl font-bold text-slate-800 font-gochi-hand text-sky-800 sm:text-5xl">
+          <h2 className="text-4xl font-bold text-slate-800 font-gochi-hand text-sky-700 sm:text-5xl">
             {t('volunteers.title')}
           </h2>
           <p className="mt-4 text-base text-slate-600 sm:text-lg">

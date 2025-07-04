@@ -1,4 +1,3 @@
-
 import  { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -29,7 +28,7 @@ const ImageGallery = ({ images }) => {
         {images.map((image) => (
           <motion.div
             key={image.src}
-            className="relative aspect-square w-full h-full rounded-lg overflow-hidden cursor-pointer shadow-md hover:shadow-xl"
+            className="relative aspect-square w-full h-full rounded-xl overflow-hidden cursor-pointer shadow-md hover:shadow-xl border-2 border-transparent hover:border-sky-200"
             onClick={() => setSelectedImage(image)}
             layoutId={image.src} // <-- Clave para la animación de expansión
             whileHover={{ scale: 1.05 }}
@@ -40,6 +39,8 @@ const ImageGallery = ({ images }) => {
               alt={image.alt}
               className="w-full h-full object-cover"
             />
+            {/* Overlay con efecto hover */}
+            <div className="absolute inset-0 bg-gradient-to-t from-sky-600/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
           </motion.div>
         ))}
       </div>
@@ -55,7 +56,7 @@ const ImageGallery = ({ images }) => {
             onClick={() => setSelectedImage(null)} // Cierra al hacer clic en el fondo
           >
             <div className="relative max-w-4xl max-h-full" onClick={(e) => e.stopPropagation()}>
-              <motion.div layoutId={selectedImage.src} className="relative shadow-2xl rounded-lg overflow-hidden">
+              <motion.div layoutId={selectedImage.src} className="relative shadow-2xl rounded-xl overflow-hidden border-2 border-sky-200">
                 <img
                   src={selectedImage.src}
                   alt={selectedImage.alt}
@@ -75,7 +76,7 @@ const ImageGallery = ({ images }) => {
             </div>
 
             <motion.button
-              className="absolute top-5 right-5 text-white bg-black/30 rounded-full p-2 hover:bg-black/60 transition-colors"
+              className="absolute top-5 right-5 text-white bg-sky-600/80 rounded-full p-2 hover:bg-sky-700/90 transition-colors"
               onClick={() => setSelectedImage(null)}
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1, transition: { delay: 0.3 } }}

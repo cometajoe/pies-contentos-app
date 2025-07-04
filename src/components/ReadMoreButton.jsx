@@ -13,11 +13,11 @@ const ReadMoreButton = ({ href, variants, title }) => {
             className="
               inline-flex items-center group
               px-8 py-3 text-lg font-semibold 
-              bg-white text-slate-800 
-              rounded-full shadow-lg
-              hover:bg-sky-500 hover:text-white hover:scale-105
-              focus:outline-none focus:ring-4 focus:ring-sky-500/50
-              transition-all duration-300 ease-in-out
+              bg-gradient-to-r from-sky-600 to-sky-500 text-white
+              rounded-xl shadow-lg
+              hover:from-sky-700 hover:to-sky-600 hover:scale-105 hover:shadow-xl
+              focus:outline-none focus:ring-4 focus:ring-sky-500/50 focus:ring-offset-2
+              transition-all duration-300 ease-in-out transform
             "
           >
             {t(title)} {/* Texto del botón */}

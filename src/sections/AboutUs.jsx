@@ -14,7 +14,7 @@ const AboutUs = () => {
   };
 
   return (
-    <section id="about" ref={ref} className="bg-gradient-to-b from-sky-50 to-sky-200 text-white py-24 sm:py-32">
+    <section id="about" ref={ref} className="bg-gradient-to-br from-sky-50 via-white to-sky-100 text-slate-800 py-20 sm:py-28">
       <motion.div
         className="container mx-auto px-6 text-center max-w-4xl"
         variants={{
@@ -34,7 +34,7 @@ const AboutUs = () => {
 
         {/* Descripción */}
         <motion.p 
-          className="text-xl sm:text-2xl text-slate-600 leading-relaxed"
+          className="text-xl sm:text-2xl text-slate-600 leading-relaxed mb-8"
           variants={variants}
         >
           {t('about.description')}

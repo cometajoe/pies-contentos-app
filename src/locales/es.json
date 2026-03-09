@@ -103,6 +103,9 @@
         }
       ]
     },
+    "teamGallery": {
+      "title": "Nuestro equipo"
+    },
     "aboutRuben": {
       "title": "Sobre Rubén Estrada",
       "imageUrl": "/team/rubenestrada.jpeg",

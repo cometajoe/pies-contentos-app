@@ -25,6 +25,7 @@ import {
 } from 'lucide-react';
 import TeamSection from '../components/TeamSection';
 import StatCard from '../components/StatCard'; // Adjusted path
+import EventsGallerySection from '../components/events/EventsGallerySection';
 
 
 // Enhanced image with better quality and composition
@@ -336,6 +337,21 @@ const AboutUsPage = () => {
             ))}
           </div>
         </motion.section>
+
+        {/* Team gallery — photos from public/team/ */}
+        <EventsGallerySection
+          showTitle={false}
+          fullWidth
+          galleryImages={[
+            { id: 1, alt: 'Team 1', bg: 'from-sky-400 to-blue-500', src: '/team/team1.jpeg' },
+            { id: 2, alt: 'Team 2', bg: 'from-emerald-400 to-teal-500', src: '/team/team2.jpeg' },
+            { id: 3, alt: 'Team 3', bg: 'from-sky-400 to-indigo-500', src: '/team/team3.jpeg' },
+            { id: 4, alt: 'Team 4', bg: 'from-emerald-400 to-cyan-500', src: '/team/team4.jpeg' },
+            { id: 5, alt: 'Team 5', bg: 'from-sky-400 to-blue-500', src: '/team/team5.jpeg' },
+            { id: 6, alt: 'Team 6', bg: 'from-emerald-400 to-teal-500', src: '/team/team6.jpeg' },
+            { id: 7, alt: 'Team 7', bg: 'from-sky-400 to-indigo-500', src: '/team/team7.jpeg' },
+          ]}
+        />
 
         {/* 2. Enhanced Team Section */}
        

@@ -7,12 +7,12 @@ const Footer = () => {
   const { t } = useLanguage();
 
   const quickLinks = [
-    { name: t('navbar.home'), href: '#home' },
-    { name: t('navbar.about'), href: '#about' },
-    { name: t('navbar.mission'), href: '#mission' },
-    { name: t('navbar.impact'), href: '#impact' },
-    { name: t('navbar.gallery'), href: '#gallery' },
-    { name: t('navbar.contact'), href: '#contact' },
+    { name: t('navbar.home'), href: '/' },
+    { name: t('navbar.about'), href: '/about-us' },
+    { name: t('navbar.mission'), href: '/our-work' },
+    { name: t('navbar.impact'), href: '/events' },
+    { name: t('navbar.gallery'), href: '/our-work' },
+    { name: t('navbar.contact'), href: '/contact-us' },
   ];
 
   return (
@@ -33,7 +33,7 @@ const Footer = () => {
               {t('footer.shortBlurb')}
             </p>
             <a
-              href="mailto:pies.contentos.pc@gmail.com" // Reemplaza con tu email
+              href="mailto:hola@piescontentosmx.org" // Reemplaza con tu email
               className="mt-6 inline-block text-sky-400 hover:text-sky-300 font-semibold text-sm transition-colors"
             >
               {t('footer.contactUs')} &rarr;
@@ -65,7 +65,7 @@ const Footer = () => {
           {/* Columna 4: Botón de Donar */}
           <div className="flex items-start">
             <a
-              href="#donate"
+              href="/donate"
               className="
                 w-full text-center px-6 py-3
                 text-base font-semibold text-white 

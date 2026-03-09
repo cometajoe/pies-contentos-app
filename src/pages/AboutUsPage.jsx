@@ -1,6 +1,6 @@
 // src/pages/AboutUsPage.jsx
-import React, { useState, useEffect } from 'react';
-import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
+import React from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
 import PageHeader from '../components/PageHeader';
 import { cardVariants, floatingVariants,fadeInUpVariants,staggerContainer  } from '../utils/animationVariants'; // Adjusted path
@@ -17,7 +17,11 @@ import {
   ArrowRight,
   Calendar,
   MapPin,
-  Quote
+  Quote,
+  Compass,
+  UserCheck,
+  CheckCircle2,
+  User
 } from 'lucide-react';
 import TeamSection from '../components/TeamSection';
 import StatCard from '../components/StatCard'; // Adjusted path
@@ -45,7 +49,7 @@ const AboutUsPage = () => {
         backgroundImage={pageHeaderImage}
       />
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 space-y-24 sm:space-y-32 relative">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 space-y-14 sm:space-y-16 lg:space-y-12 relative">
         
         {/* Decorative background elements */}
         <motion.div 
@@ -57,54 +61,280 @@ const AboutUsPage = () => {
           style={{ y: y2 }}
         />
 
-        {/* 1. Enhanced Historia Section */}
+        {/* 1. Nuestro Inicio — readable layout, balanced spacing, punchline callout */}
         <motion.section
           id="history"
-          className="max-w-5xl mx-auto text-center relative"
+          className="max-w-4xl mx-auto relative"
           variants={fadeInUpVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          {/* Floating decorative elements */}
           <motion.div
-            className="absolute -top-10 -left-10 text-sky-200"
+            className="absolute -top-10 -left-10 text-sky-200 pointer-events-none"
             variants={floatingVariants}
             animate="animate"
           >
             <Sparkles className="w-8 h-8" />
           </motion.div>
-          
-          <div className="inline-flex items-center justify-center mb-8">
-            <motion.div
-              className="bg-gradient-to-r from-sky-500 to-blue-600 p-4 rounded-2xl shadow-xl mr-4"
-              whileHover={{ rotate: [0, -10, 10, 0], scale: 1.1 }}
-              transition={{ duration: 0.5 }}
+
+          <div className="text-center mb-8">
+            <div className="inline-flex items-center justify-center gap-3 mb-4">
+              <motion.div
+                className="bg-gradient-to-r from-sky-500 to-blue-600 p-3 sm:p-4 rounded-2xl shadow-lg"
+                whileHover={{ rotate: [0, -10, 10, 0], scale: 1.05 }}
+                transition={{ duration: 0.5 }}
+              >
+                <BookOpen className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
+              </motion.div>
+              <h2 className="text-3xl sm:text-5xl font-bold font-gochi-hand bg-gradient-to-r from-sky-700 to-blue-800 bg-clip-text text-transparent">
+                {t('aboutUsPage.history.title')}
+              </h2>
+            </div>
+            <motion.p
+              className="text-sky-600 text-base sm:text-xl font-medium"
+              variants={fadeInUpVariants}
             >
-              <BookOpen className="w-8 h-8 text-white" />
-            </motion.div>
-            <h2 className="text-4xl sm:text-6xl font-bold font-gochi-hand bg-gradient-to-r from-sky-700 to-blue-800 bg-clip-text text-transparent">
-              {t('aboutUsPage.history.title')}
-            </h2>
+              {t('aboutUsPage.history.subtitle')}
+            </motion.p>
           </div>
-          
-          <motion.div 
-            className="prose prose-lg prose-slate max-w-4xl mx-auto"
+
+          <motion.div
+            className="rounded-2xl bg-white/90 border border-slate-100 shadow-sm px-6 py-8 sm:px-10 sm:py-10 lg:px-12"
             variants={staggerContainer}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
           >
-            {t('aboutUsPage.history.content', { returnObjects: true }).map((paragraph, index) => (
-              <motion.p 
-                key={index}
-                className="text-slate-600 text-lg xl:text-xl leading-relaxed mb-6 last:mb-0"
-                variants={fadeInUpVariants}
-              >
-                {paragraph}
-              </motion.p>
-            ))}
+            <div className="max-w-3xl mx-auto text-left space-y-5">
+              {t('aboutUsPage.history.content', { returnObjects: true }).map((paragraph, index) => {
+                const isPunchline = index === 3;
+                if (isPunchline) {
+                  return (
+                    <motion.div
+                      key={index}
+                      className="my-8 py-6 px-6 rounded-xl bg-gradient-to-br from-sky-50 to-blue-50/80 border border-sky-100"
+                      variants={fadeInUpVariants}
+                    >
+                      <p className="text-center text-sky-800 text-lg sm:text-xl font-medium italic leading-relaxed">
+                        {paragraph}
+                      </p>
+                    </motion.div>
+                  );
+                }
+                return (
+                  <motion.p
+                    key={index}
+                    className="text-slate-700 text-base sm:text-lg leading-[1.7]"
+                    variants={fadeInUpVariants}
+                  >
+                    {paragraph}
+                  </motion.p>
+                );
+              })}
+            </div>
           </motion.div>
+        </motion.section>
+
+        {/* De Visión a Realidad */}
+        <motion.section
+          id="de-vision"
+          className="max-w-4xl mx-auto"
+          variants={fadeInUpVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          <div className="rounded-2xl bg-white/90 border border-slate-100 shadow-sm px-6 py-8 sm:px-10 sm:py-10 overflow-hidden">
+            <div className="flex items-center gap-3 mb-6">
+              <motion.div
+                className="bg-gradient-to-r from-sky-500 to-blue-600 p-3 rounded-xl shadow-lg shrink-0"
+                whileHover={{ scale: 1.05 }}
+              >
+                <Compass className="w-6 h-6 text-white" />
+              </motion.div>
+              <h2 className="text-2xl sm:text-4xl font-bold font-gochi-hand bg-gradient-to-r from-sky-700 to-blue-800 bg-clip-text text-transparent">
+                {t('aboutUsPage.deVision.title')}
+              </h2>
+            </div>
+            <div className="max-w-3xl space-y-4">
+              {t('aboutUsPage.deVision.content', { returnObjects: true }).map((paragraph, index) => (
+                <motion.p
+                  key={index}
+                  className="text-slate-700 text-base sm:text-lg leading-[1.7]"
+                  variants={fadeInUpVariants}
+                >
+                  {paragraph}
+                </motion.p>
+              ))}
+            </div>
+          </div>
+        </motion.section>
+
+        {/* Líderes */}
+        <motion.section
+          id="lideres"
+          className="max-w-4xl mx-auto"
+          variants={fadeInUpVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          <div className="rounded-2xl bg-white/90 border border-slate-100 shadow-sm px-6 py-8 sm:px-10 sm:py-10 overflow-hidden">
+            <div className="flex items-center gap-3 mb-6">
+              <motion.div
+                className="bg-gradient-to-r from-purple-500 to-pink-600 p-3 rounded-xl shadow-lg shrink-0"
+                whileHover={{ scale: 1.05 }}
+              >
+                <UserCheck className="w-6 h-6 text-white" />
+              </motion.div>
+              <h2 className="text-2xl sm:text-4xl font-bold font-gochi-hand bg-gradient-to-r from-purple-700 to-pink-800 bg-clip-text text-transparent">
+                {t('aboutUsPage.lideres.title')}
+              </h2>
+            </div>
+            <div className="max-w-3xl space-y-4">
+              {t('aboutUsPage.lideres.content', { returnObjects: true }).map((paragraph, index) => (
+                <motion.p
+                  key={index}
+                  className="text-slate-700 text-base sm:text-lg leading-[1.7]"
+                  variants={fadeInUpVariants}
+                >
+                  {paragraph}
+                </motion.p>
+              ))}
+            </div>
+          </div>
+        </motion.section>
+
+        {/* Una Década de Impacto */}
+        <motion.section
+          id="una-decada"
+          className="max-w-4xl mx-auto"
+          variants={fadeInUpVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          <div className="rounded-2xl bg-white/90 border border-slate-100 shadow-sm px-6 py-8 sm:px-10 sm:py-10 overflow-hidden">
+            <div className="flex items-center gap-3 mb-6">
+              <motion.div
+                className="bg-gradient-to-r from-emerald-500 to-teal-600 p-3 rounded-xl shadow-lg shrink-0"
+                whileHover={{ scale: 1.05 }}
+              >
+                <CheckCircle2 className="w-6 h-6 text-white" />
+              </motion.div>
+              <h2 className="text-2xl sm:text-4xl font-bold font-gochi-hand bg-gradient-to-r from-emerald-700 to-teal-800 bg-clip-text text-transparent">
+                {t('aboutUsPage.unaDecada.title')}
+              </h2>
+            </div>
+            <ul className="max-w-3xl space-y-3">
+              {t('aboutUsPage.unaDecada.items', { returnObjects: true }).map((item, index) => (
+                <motion.li
+                  key={index}
+                  className="flex gap-3 text-slate-700 text-base sm:text-lg leading-[1.6]"
+                  variants={fadeInUpVariants}
+                >
+                  <CheckCircle2 className="w-5 h-5 text-emerald-500 shrink-0 mt-0.5" />
+                  <span>{item}</span>
+                </motion.li>
+              ))}
+            </ul>
+          </div>
+        </motion.section>
+
+        {/* About Ruben — card with photo, after Una Década */}
+        <motion.section
+          id="about-ruben"
+          className="max-w-4xl mx-auto px-1"
+          variants={fadeInUpVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          <motion.div
+            className="rounded-2xl sm:rounded-3xl bg-white border border-slate-100 shadow-xl overflow-hidden"
+            variants={cardVariants}
+            whileHover="hover"
+          >
+            <div className="flex flex-col md:flex-row min-h-0">
+              {/* Photo — compact on mobile so content is visible */}
+              <div className="w-full h-48 sm:h-56 md:w-80 md:h-auto md:min-h-[300px] lg:w-96 lg:min-h-[320px] shrink-0 relative overflow-hidden bg-gradient-to-br from-sky-100 to-blue-100">
+                <img
+                  src={t('aboutUsPage.aboutRuben.imageUrl')}
+                  alt={t('aboutUsPage.aboutRuben.imageAlt')}
+                  className="w-full h-full object-cover object-top md:object-center"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none" />
+              </div>
+              {/* Content — full width on mobile, no clipping */}
+              <div className="flex-1 min-w-0 p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col justify-center">
+                <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+                  <div className="bg-gradient-to-r from-sky-500 to-blue-600 p-2 sm:p-2.5 rounded-lg sm:rounded-xl shadow-lg shrink-0">
+                    <User className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                  </div>
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold font-gochi-hand bg-gradient-to-r from-sky-700 to-blue-800 bg-clip-text text-transparent leading-tight">
+                    {t('aboutUsPage.aboutRuben.title')}
+                  </h2>
+                </div>
+                <div className="space-y-3 sm:space-y-4 text-slate-700 text-sm sm:text-base md:text-lg leading-[1.65]">
+                  {t('aboutUsPage.aboutRuben.content', { returnObjects: true }).map((paragraph, index) => (
+                    <motion.p key={index} variants={fadeInUpVariants} className="min-h-0">
+                      {paragraph}
+                    </motion.p>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </motion.section>
+
+        {/* Ruben's Books — mobile-first */}
+        <motion.section
+          id="rubens-books"
+          className="max-w-4xl mx-auto px-1"
+          variants={fadeInUpVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.1 }}
+        >
+          <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+          
+          
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+            {(t('aboutUsPage.rubensBooks.books', { returnObjects: true }) || []).map((book, index) => (
+              <motion.a
+                key={index}
+                href={book.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col rounded-2xl bg-white border border-slate-100 shadow-md hover:shadow-xl overflow-hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-500 focus-visible:ring-offset-2"
+                variants={cardVariants}
+                whileHover="hover"
+                whileTap={{ scale: 0.98 }}
+              >
+                <div className="aspect-[2/3] w-full min-h-0 relative overflow-hidden bg-slate-100">
+                  <img
+                    src={book.imageUrl}
+                    alt={book.imageAlt}
+                    className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-[1.02]"
+                  />
+                </div>
+                <div className="flex flex-col flex-1 min-h-0 p-4 sm:p-5">
+                  <h3 className="text-base sm:text-lg font-bold text-slate-800 line-clamp-2 mb-1">
+                    {book.title}
+                  </h3>
+                  <p className="text-sm text-slate-600 line-clamp-2 mb-4 flex-1">
+                    {book.subtitle}
+                  </p>
+                  <span className="inline-flex items-center justify-center gap-2 min-h-[44px] px-4 py-3 rounded-xl bg-amber-500 text-white font-semibold text-sm sm:text-base shadow-sm group-hover:bg-amber-600 transition-colors">
+                    {t('aboutUsPage.rubensBooks.viewOnAmazon')}
+                    <ExternalLink className="w-4 h-4 shrink-0" />
+                  </span>
+                </div>
+              </motion.a>
+            ))}
+          </div>
         </motion.section>
 
         {/* 2. Enhanced Team Section */}
@@ -174,113 +404,11 @@ const AboutUsPage = () => {
           </motion.div>
         </motion.section>
 
-        {/* 4. Enhanced Quote Section */}
-        <motion.section
-          id="quote"
-          className="relative py-20 rounded-3xl overflow-hidden"
-          variants={fadeInUpVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
-        >
-          {/* Animated background */}
-          <div className="absolute inset-0 bg-gradient-to-r from-sky-600 via-blue-600 to-sky-700">
-<div
-  className="absolute inset-0 opacity-20"
-  style={{
-    backgroundImage:
-      "url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fillRule=\"evenodd\"%3E%3Cg fill=\"%23ffffff\" fillOpacity=\"0.1\"%3E%3Ccircle cx=\"30\" cy=\"30\" r=\"4\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')",
-  }}
-/>          </div>
-          
-          <div className="relative z-10 max-w-5xl mx-auto px-8 text-center">
-            <motion.div
-              className="inline-block mb-8"
-              initial={{ scale: 0, rotate: -180 }}
-              whileInView={{ scale: 1, rotate: 0 }}
-              transition={{ duration: 0.8, ease: "backOut" }}
-            >
-              <Quote className="w-16 h-16 text-sky-200" />
-            </motion.div>
-            
-            <motion.blockquote 
-              className="text-2xl sm:text-4xl xl:text-5xl italic text-white leading-relaxed font-medium mb-8"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3, duration: 0.8 }}
-            >
-              "{t('aboutUsPage.quote.text')}"
-            </motion.blockquote>
-            
-            <motion.cite 
-              className="block text-sky-200 text-lg xl:text-xl not-italic font-semibold"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6, duration: 0.6 }}
-            >
-              – {t('aboutUsPage.quote.author')}
-            </motion.cite>
-          </div>
-        </motion.section>
+     
 
-        {/* 5. Enhanced Transparency Section */}
-        <motion.section
-          id="transparency"
-          variants={fadeInUpVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.1 }}
-        >
-          <div className="text-center mb-16 sm:mb-20">
-            <div className="inline-flex items-center justify-center mb-6">
-              <motion.div
-                className="bg-gradient-to-r from-emerald-500 to-teal-600 p-4 rounded-2xl shadow-xl mr-4"
-                whileHover={{ rotate: [0, -10, 10, 0], scale: 1.1 }}
-                transition={{ duration: 0.6 }}
-              >
-                <BarChart2 className="w-8 h-8 text-white" />
-              </motion.div>
-              <h2 className="text-4xl sm:text-6xl font-bold font-gochi-hand bg-gradient-to-r from-emerald-700 to-teal-800 bg-clip-text text-transparent">
-                {t('aboutUsPage.transparency.title')}
-              </h2>
-            </div>
-            
-            <motion.p 
-              className="text-slate-600 text-lg xl:text-xl max-w-4xl mx-auto mb-10 leading-relaxed"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3 }}
-            >
-              {t('aboutUsPage.transparency.intro')}
-            </motion.p>
-            
-            <motion.a 
-              href="#"
-              className="group inline-flex items-center bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300"
-              whileHover={{ scale: 1.05, y: -2 }}
-              whileTap={{ scale: 0.95 }}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.5 }}
-            >
-              {t('aboutUsPage.transparency.reportLinkText')}
-              <motion.div
-                className="ml-3"
-                animate={{ x: [0, 5, 0] }}
-                transition={{ duration: 1.5, repeat: Infinity }}
-              >
-                <ArrowRight className="w-5 h-5" />
-              </motion.div>
-            </motion.a>
-          </div>
-
-          <motion.div 
-            className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 sm:gap-10"
-            variants={staggerContainer}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.1 }}
-          >
+        {/* 5. Transparency / Stats Section — no animation */}
+        <section id="transparency">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 sm:gap-10">
             <StatCard 
               icon={Award}
               number={t('hero.stat1Number')}
@@ -301,8 +429,8 @@ const AboutUsPage = () => {
               number={t('hero.stat3Number')}
               text={t('hero.stat3Text')}
             />
-          </motion.div>
-        </motion.section>
+          </div>
+        </section>
 
       </div>
     </div>

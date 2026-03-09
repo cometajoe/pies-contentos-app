@@ -73,10 +73,69 @@
     "pageTitle": "Sobre Nosotros",
     "pageSubtitle": "Conoce más sobre nuestra historia, nuestro equipo y nuestro compromiso para marcar la diferencia en la vida de los niños.",
     "history": {
-      "title": "Nuestra Historia",
+      "title": "Nuestro Inicio",
+      "subtitle": "Un Sueño Nacido en el Corazón de Dios",
       "content": [
-        "Pies Contentos nació de un deseo simple: llevar alegría y apoyo esencial a niños en situaciones vulnerables en México. Todo comenzó en 2015 con un pequeño grupo de individuos apasionados en Ciudad Juárez que vieron una necesidad y decidieron actuar, inicialmente proveyendo tenis y calcetines.",
-        "Con los años, lo que empezó como una modesta iniciativa ha crecido hasta convertirse en un sistema de apoyo integral. Hemos expandido nuestro alcance a diversas comunidades, forjado alianzas increíbles con organizaciones locales e internacionales y sido testigos de primera mano del poder transformador de la comunidad y la compasión. Nuestro viaje está impulsado por las sonrisas de los niños que servimos y la dedicación de todos los involucrados, desde voluntarios hasta donantes."
+        "Pies Contentos nació mucho antes de tener un nombre. Creemos que comenzó en el corazón de Dios, un sueño sencillo que Él compartió con un joven llamado Rubén Estrada, cuya vida ya había sido marcada por la necesidad, la fe y la bondad de otros.",
+        "En 2010, durante un viaje misionero a San Antonio Aguas Calientes, Guatemala, Rubén servía como voluntario en una pequeña clínica médica. Una mañana llegó un señor mayor, Don Gumaro, avergonzado por el estado de sus pies. Rubén sonrió y le dijo: \"Aquí damos servicio completo. Tome asiento y relájese.\"",
+        "Con solo una toalla y una palangana de plástico, Rubén se arrodilló y comenzó a lavarle los pies. Mientras lo hacía, le compartió cuánto lo amaba Dios, cómo todos cargamos heridas, y cómo Jesús vino a sanarlas. Al terminar, le preguntó si quería vivir para Jesús. Don Gumaro dijo que sí.",
+        "Y en ese momento sencillo, nació un sueño.",
+        "Rubén salió de Guatemala con una visión: llevar sanidad, dignidad y esperanza a niños vulnerables, comenzando por sus pies y llegando a su corazón."
+      ]
+    },
+    "rubensBooks": {
+      "title": "Los libros de Rubén",
+      "viewOnAmazon": "Ver en Amazon",
+      "books": [
+        {
+          "title": "Dreaming Beyond Borders",
+          "subtitle": "An Immigrant's Journey of Faith and Purpose",
+          "imageUrl": "/books/beyondBorders.jpg",
+          "imageAlt": "Portada del libro Dreaming Beyond Borders",
+          "amazonUrl": "https://www.amazon.com/Dreaming-Beyond-Borders-Immigrants-Journey-ebook/dp/B0GJ6QQ1DN"
+        },
+        {
+          "title": "Conquista tus sueños imposibles",
+          "subtitle": "Una guía que te lleva a cumplir tus metas a nivel mundial",
+          "imageUrl": "/books/conquistatussuenos.jpg",
+          "imageAlt": "Portada del libro Conquista tus sueños imposibles",
+          "amazonUrl": "https://www.amazon.com/-/es/CONQUISTA-TUS-SUE%C3%91OS-IMPOSIBLES-cumplir/dp/B0C5YQ27TV"
+        }
+      ]
+    },
+    "aboutRuben": {
+      "title": "Sobre Rubén Estrada",
+      "imageUrl": "/team/rubenestrada.jpeg",
+      "imageAlt": "Rubén Estrada, fundador de Pies Contentos",
+      "content": [
+        "La vida de Rubén estuvo marcada desde temprano por la necesidad, la fe y la bondad de otros.",
+        "Sus libros y su camino de servicio han inspirado a muchos a seguir el mismo llamado.",
+        "Pies Contentos nació de ese mismo corazón dispuesto a servir, empezando por los pies y llegando al corazón."
+      ]
+    },
+    "deVision": {
+      "title": "De Visión a Realidad",
+      "content": [
+        "Años después, en 2015, lo que empezó como un gesto de amor en Guatemala tomó forma en México.",
+        "Lo que empezó con unos pies lavados se convirtió en un ministerio. Durante muchos años hemos llevado ese mismo servicio de dignidad, cuidado y esperanza a comunidades en Chihuahua, Ciudad Juárez y más allá."
+      ]
+    },
+    "lideres": {
+      "title": "Líderes",
+      "content": [
+        "Uno de los pilares de Pies Contentos es el equipo de líderes y voluntarios que hacen posible cada evento.",
+        "Estos jóvenes y adultos dedican su tiempo y corazón para servir, inspirando a la siguiente generación y multiplicando el impacto en las comunidades que atendemos."
+      ]
+    },
+    "unaDecada": {
+      "title": "Una Década de Impacto",
+      "items": [
+        "Gracias a nuestros donadores y voluntarios, seguimos creciendo.",
+        "Hemos servido a miles de niños con calzado, calcetines y artículos de primera necesidad.",
+        "Brindado nuestro apoyo y esperanza a familias en situación vulnerable.",
+        "Conectados con comunidades en todo el estado de Chihuahua y más allá.",
+        "Formado a voluntarios y líderes que replican el mensaje de amor y servicio.",
+        "Cada acto cuenta."
       ]
     },
     "team": {
@@ -101,9 +160,15 @@
         "imageUrl": "/team/Daniela.webp"
       },
       "member4": {
-        "name": "Rubén",
+        "name": "Rubén Hernández",
         "role": "Coordinación de vinculación",
         "bio": "Soy Rubén, como parte del ministerio de Pies Contentos desde sus inicios, colaboro en la operación desde Ciudad Juárez, mi labor se enfoca desde el contactar patrocinadores, planeación administrativa y todo lo que con lleva establecer lazos firmes en las nuevas relaciones con los donadores y enlaces eclesiásticos para futuros eventos.",
+        "imageUrl": "/team/rubenHernandez.webp"
+      },
+      "member5": {
+        "name": "Ruben Estrada Fontes",
+        "role": "Fundadador",
+        "bio": "Formo parte del equipo de Pies Contentos, colaborando activamente para fortalecer nuestras iniciativas y apoyar a las comunidades que atendemos.",
         "imageUrl": "/team/rubenHernandez.webp"
       }
     },
@@ -134,6 +199,23 @@
     "title": "¡Próximamente!",
     "message": "Estamos trabajando duro para traerte algo increíble. ¡Mantente atento!",
     "backToHome": "Volver al Inicio"
+  },
+  "donatePage": {
+    "hero": {
+      "badge": "Haz la Diferencia",
+      "title": "Apoya Nuestra Misión",
+      "subtitle": "Tu donación nos ayuda a proporcionar zapatos, educación y esperanza a niños necesitados."
+    },
+    "donationInfo": {
+      "title": "Información de Donación",
+      "imageAlt": "Información de cuenta de donación y detalles"
+    },
+    "cta": {
+      "title": "Otras Formas de Ayudar",
+      "subtitle": "Más allá de las donaciones, hay muchas formas en las que puedes apoyar nuestra causa y marcar la diferencia en la vida de los niños.",
+      "volunteerButton": "Ser Voluntario",
+      "contactButton": "Contáctanos"
+    }
   },
   "notFound": {
     "errorCode": "404",
@@ -290,15 +372,15 @@
         "title": "Campaña de Regreso a Clases",
         "date": "16 de Agosto, 2025",
         "location": "Centro Comunitario",
-        "description": "Proporcionando zapatos y útiles escolares para más de 200 niños",
-        "impact": "200 niños"
+        "description": "Proporcionando zapatos y útiles escolares para más de 350 niños",
+        "impact": "350 niños"
       },
       "winterWarmth": {
         "title": "Campaña de Calor Invernal",
         "date": "10 de Diciembre, 2025",
         "location": "Parque del Centro",
         "description": "Distribución de calcetines cálidos y botas de invierno",
-        "impact": "150 familias"
+        "impact": "500 niños"
       },
       "springFestival": {
         "title": "Festival de Primavera",
@@ -391,7 +473,7 @@
     "title": "Próximo Evento",
     "date": "16 de Agosto, 2025",
     "location": "Primaría Ramón López Pérez",
-    "description": "Proporcionando zapatos y útiles escolares para más de 200 niños",
+    "description": "Proporcionando zapatos y útiles escolares para más de 350 niños",
     "impact": "200 niños serán beneficiados",
     "impactStatement": "💝 Cada donación ayuda a proporcionar calzado de calidad y artículos esenciales a niños en situación vulnerable."
   }

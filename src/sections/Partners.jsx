@@ -8,10 +8,9 @@ import PlaceholderLogo from '../components/PlaceholderLogo';
 // Reemplaza estas URLs con las de los logos de tus socios.
 const partnersData = [
   { name: 'Park United Presbyterian Church', href: '#', logoSrc: 'partners/park-sign-2018-1-.webp' },
-  { name: 'Centro Mexicano Pro Bono', href: '#', logoSrc: 'partners/pro-bono.webp' },
-  { name: 'SMPS Legal', href: '#', logoSrc: 'partners/smps-legal.webp' }, // <-- Ejemplo usando el placeholder
   { name: 'Tecnológico de Juárez', href: '#', logoSrc: 'partners/tec-juarez.webp' },
-  { name: 'Donador Angel', href: '#', logoSrc: null },
+  { name: 'Servicio de Educación, Hogar y Salud', href: '#', logoSrc: 'partners/sehs.webp' },
+  { name: 'Iglesia Misionera Tierra Fértil', href: '#', logoSrc: 'partners/tierra_fertil.webp' },
 ];
 
 
@@ -45,7 +44,8 @@ const Partners = () => {
         </div>
 
         <motion.div
-          className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 lg:grid-cols-5"
+        // Two rows for desktop and one column for mobile
+          className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 lg:grid-cols-3"
           variants={gridVariants}
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}

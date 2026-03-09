@@ -13,6 +13,7 @@ const teamMembersData = [
   { id: 'member3', translationKey: 'aboutUsPage.team.member3' },
   { id: 'member4', translationKey: 'aboutUsPage.team.member4' },
 
+
  
 ];
 

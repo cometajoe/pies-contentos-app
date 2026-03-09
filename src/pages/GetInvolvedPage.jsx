@@ -17,9 +17,18 @@ const GetInvolvedPage = () => {
     phone: '',
     interest: '',
     message: '',
+    aged: '',
+    gender: '',
+    county: '',
+    township: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState({ // Para manejar éxito y error
+    submitted: false,
+    success: false,
+    message: '',
+  });
 
   const handleVolunteerChange = (e) => {
     const { name, value } = e.target;
@@ -30,13 +39,29 @@ const GetInvolvedPage = () => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitSuccess(false);
-    // Simulación de envío de API
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    console.log('Volunteer Form Data:', volunteerForm);
-    setIsSubmitting(false);
-    setSubmitSuccess(true);
-    setVolunteerForm({ name: '', email: '', phone: '', interest: '', message: '' });
-    setTimeout(() => setSubmitSuccess(false), 5000); // Ocultar mensaje de éxito después de 5s
+    try {
+      const response = await fetch('/send-email.php', { // URL to your PHP file
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(volunteerForm),
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        setSubmitStatus({ submitted: true, success: true, message: t('contact.submitSuccessMessage') || result.message }); // Usa una traducción si la tienes
+        setVolunteerForm({ name: '', email: '', phone: '', interest: '', message: '' }); // Limpia el formulario
+      } else {
+        setSubmitStatus({ submitted: true, success: false, message: t('contact.submitErrorMessage') || result.message || 'Error al enviar el mensaje.' }); // Usa una traducción
+      }
+    } catch (error) {
+      console.error('Error en la petición fetch:', error);
+      setSubmitStatus({ submitted: true, success: false, message: t('contact.submitNetworkErrorMessage') || 'Error de red. Inténtalo de nuevo.' }); // Usa una traducción
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   // Variantes de animación para Framer Motion

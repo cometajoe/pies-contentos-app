@@ -14,7 +14,7 @@ const UpcomingEvent = () => {
     location: t('upcomingEvent.location') || 'Community Center',
     description: t('upcomingEvent.description') || 'Providing shoes and school supplies for 200+ children',
     impact: t('upcomingEvent.impact') || '200 children',
-    image: 'events/back_to_school_2025.jpeg'
+    image: '/events/back_to_school_2025.jpeg'
   };
 
   const containerVariants = {

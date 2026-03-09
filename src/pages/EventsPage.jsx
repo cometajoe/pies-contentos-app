@@ -65,31 +65,31 @@ const EventsPage = () => {
   //get images from the events folder images are JPG
 
   const galleryImages = [
-    { id: 1, alt: t('eventsPage.gallery.images.childrenReceiving'), bg: "from-sky-400 to-blue-500", src: "events/DSC_0824.JPG" },
-    { id: 2, alt: t('eventsPage.gallery.images.volunteersHelping'), bg: "from-emerald-400 to-teal-500", src: "events/DSC_0825.JPG" },
-    { id: 3, alt: t('eventsPage.gallery.images.communitySetup'), bg: "from-sky-400 to-indigo-500", src: "events/DSC_0826.JPG" },
-    { id: 4, alt: t('eventsPage.gallery.images.happyChildren'), bg: "from-emerald-400 to-cyan-500", src: "events/DSC_0827.JPG" },
-    { id: 5, alt: t('eventsPage.gallery.images.parentChild'), bg: "from-sky-400 to-blue-500", src: "events/DSC_0832.JPG" }
+    { id: 1, alt: t('eventsPage.gallery.images.childrenReceiving'), bg: "from-sky-400 to-blue-500", src: "/events/DSC_0824.JPG" },
+    { id: 2, alt: t('eventsPage.gallery.images.volunteersHelping'), bg: "from-emerald-400 to-teal-500", src: "/events/DSC_0825.JPG" },
+    { id: 3, alt: t('eventsPage.gallery.images.communitySetup'), bg: "from-sky-400 to-indigo-500", src: "/events/DSC_0826.JPG" },
+    { id: 4, alt: t('eventsPage.gallery.images.happyChildren'), bg: "from-emerald-400 to-cyan-500", src: "/events/DSC_0827.JPG" },
+    { id: 5, alt: t('eventsPage.gallery.images.parentChild'), bg: "from-sky-400 to-blue-500", src: "/events/DSC_0832.JPG" }
   ];
   const galleryImages2 = [
-    { id: 1, alt: "2023 Event Photo 1", bg: "from-sky-400 to-blue-500", src: "events/2023/DSC_0013.JPG" },
-    { id: 2, alt: "2023 Event Photo 2", bg: "from-emerald-400 to-teal-500", src: "events/2023/DSC_0038.JPG" },
-    { id: 3, alt: "2023 Event Photo 3", bg: "from-sky-400 to-indigo-500", src: "events/2023/DSC_0053.JPG" },
-    { id: 4, alt: "2023 Event Photo 4", bg: "from-emerald-400 to-cyan-500", src: "events/2023/DSC_0081.JPG" },
-    { id: 5, alt: "2023 Event Photo 5", bg: "from-sky-400 to-blue-500", src: "events/2023/DSC_0091.JPG" },
-    { id: 6, alt: "2023 Event Photo 6", bg: "from-emerald-400 to-teal-500", src: "events/2023/DSC_0093.JPG" },
-    { id: 7, alt: "2023 Event Photo 7", bg: "from-sky-400 to-indigo-500", src: "events/2023/DSC_0099.JPG" },
-    { id: 8, alt: "2023 Event Photo 8", bg: "from-emerald-400 to-cyan-500", src: "events/2023/DSC_0257.JPG" },
-    { id: 9, alt: "2023 Event Photo 9", bg: "from-sky-400 to-blue-500", src: "events/2023/DSC_0277.JPG" }
+    { id: 1, alt: "2023 Event Photo 1", bg: "from-sky-400 to-blue-500", src: "/events/2023/DSC_0013.JPG" },
+    { id: 2, alt: "2023 Event Photo 2", bg: "from-emerald-400 to-teal-500", src: "/events/2023/DSC_0038.JPG" },
+    { id: 3, alt: "2023 Event Photo 3", bg: "from-sky-400 to-indigo-500", src: "/events/2023/DSC_0053.JPG" },
+    { id: 4, alt: "2023 Event Photo 4", bg: "from-emerald-400 to-cyan-500", src: "/events/2023/DSC_0081.JPG" },
+    { id: 5, alt: "2023 Event Photo 5", bg: "from-sky-400 to-blue-500", src: "/events/2023/DSC_0091.JPG" },
+    { id: 6, alt: "2023 Event Photo 6", bg: "from-emerald-400 to-teal-500", src: "/events/2023/DSC_0093.JPG" },
+    { id: 7, alt: "2023 Event Photo 7", bg: "from-sky-400 to-indigo-500", src: "/events/2023/DSC_0099.JPG" },
+    { id: 8, alt: "2023 Event Photo 8", bg: "from-emerald-400 to-cyan-500", src: "/events/2023/DSC_0257.JPG" },
+    { id: 9, alt: "2023 Event Photo 9", bg: "from-sky-400 to-blue-500", src: "/events/2023/DSC_0277.JPG" }
   ];
 
   const galleryImages2024 = [
-    { id: 1, alt: "2024 Event Photo 1", bg: "from-sky-400 to-blue-500", src: "events/2024/DSC_0034.JPG" },
-    { id: 2, alt: "2024 Event Photo 2", bg: "from-emerald-400 to-teal-500", src: "events/2024/DSC_0049.JPG" },
-    { id: 3, alt: "2024 Event Photo 3", bg: "from-sky-400 to-indigo-500", src: "events/2024/DSC_0061.JPG" },
-    { id: 4, alt: "2024 Event Photo 4", bg: "from-emerald-400 to-cyan-500", src: "events/2024/DSC_0062.JPG" },
-    { id: 5, alt: "2024 Event Photo 5", bg: "from-sky-400 to-blue-500", src: "events/2024/DSC_0944.JPG" },
-    { id: 6, alt: "2024 Event Photo 6", bg: "from-emerald-400 to-teal-500", src: "events/2024/DSC_0982.JPG" }
+    { id: 1, alt: "2024 Event Photo 1", bg: "from-sky-400 to-blue-500", src: "/events/2024/DSC_0034.JPG" },
+    { id: 2, alt: "2024 Event Photo 2", bg: "from-emerald-400 to-teal-500", src: "/events/2024/DSC_0049.JPG" },
+    { id: 3, alt: "2024 Event Photo 3", bg: "from-sky-400 to-indigo-500", src: "/events/2024/DSC_0061.JPG" },
+    { id: 4, alt: "2024 Event Photo 4", bg: "from-emerald-400 to-cyan-500", src: "/events/2024/DSC_0062.JPG" },
+    { id: 5, alt: "2024 Event Photo 5", bg: "from-sky-400 to-blue-500", src: "/events/2024/DSC_0944.JPG" },
+    { id: 6, alt: "2024 Event Photo 6", bg: "from-emerald-400 to-teal-500", src: "/events/2024/DSC_0982.JPG" }
   ];
   const nextTestimony = () => {
     setCurrentTestimony((prev) => (prev + 1) % testimonies.length);

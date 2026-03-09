@@ -73,10 +73,69 @@
     "pageTitle": "About Us",
     "pageSubtitle": "Learn more about our journey, our team, and our commitment to making a difference in the lives of children.",
     "history": {
-        "title": "Our Story",
+        "title": "Our Beginning",
+        "subtitle": "A Dream Born in the Heart of God",
         "content": [
-            "Pies Contentos was born from a simple desire: to bring joy and essential support to children in vulnerable situations in Mexico. It all started in 2015 with a small group of passionate individuals in Ciudad Juárez who saw a need and decided to act, initially providing shoes and socks.",
-            "Over the years, what began as a modest initiative has grown into a comprehensive support system. We've expanded our reach across various communities, forged incredible partnerships with local and international organizations, and witnessed firsthand the transformative power of community and compassion. Our journey is fueled by the smiles of the children we serve and the dedication of everyone involved, from volunteers to donors."
+            "Pies Contentos was born long before it had a name. We believe it began in the heart of God, a simple dream He shared with a young man named Ruben Estrada, whose life had already been marked by need, faith, and the kindness of others.",
+            "In 2010, during a mission trip to San Antonio Aguas Calientes, Guatemala, Ruben was serving as a volunteer at a small medical clinic. One morning an elderly man, Don Gumaro, arrived, embarrassed by the condition of his feet. Ruben smiled and told him, \"Here we offer full service. Have a seat and relax.\"",
+            "With only a towel and a plastic basin, Ruben knelt down and began to wash his feet. While doing so, he shared how much God loved him, how we all carry wounds, and how Jesus came to heal them. When he finished, he asked if he wanted to live for Jesus. Don Gumaro said yes.",
+            "And in that simple moment, a dream was born.",
+            "Ruben left Guatemala with a vision: to bring healing, dignity, and hope to vulnerable children, starting with their feet and reaching their hearts."
+        ]
+    },
+    "rubensBooks": {
+        "title": "Ruben's Books",
+        "viewOnAmazon": "View on Amazon",
+        "books": [
+            {
+                "title": "Dreaming Beyond Borders",
+                "subtitle": "An Immigrant's Journey of Faith and Purpose",
+                "imageUrl": "/books/beyondBorders.jpg",
+                "imageAlt": "Cover of Dreaming Beyond Borders",
+                "amazonUrl": "https://www.amazon.com/Dreaming-Beyond-Borders-Immigrants-Journey-ebook/dp/B0GJ6QQ1DN"
+            },
+            {
+                "title": "Conquista tus sueños imposibles",
+                "subtitle": "A guide to achieving your goals worldwide",
+                "imageUrl": "/books/conquistatussuenos.jpg",
+                "imageAlt": "Cover of Conquista tus sueños imposibles",
+                "amazonUrl": "https://www.amazon.com/-/es/CONQUISTA-TUS-SUE%C3%91OS-IMPOSIBLES-cumplir/dp/B0C5YQ27TV"
+            }
+        ]
+    },
+    "aboutRuben": {
+        "title": "About Ruben Estrada",
+        "imageUrl": "/team/rubenestrada.jpeg",
+        "imageAlt": "Ruben Estrada, founder of Pies Contentos",
+        "content": [
+            "Ruben's life was shaped early on by need, faith, and the kindness of others.",
+            "His books and his path of service have inspired many to follow the same calling.",
+            "Pies Contentos was born from that same heart willing to serve—starting with their feet and reaching their hearts."
+        ]
+    },
+    "deVision": {
+        "title": "From Vision to Reality",
+        "content": [
+            "A few years later, in 2015, what began as an act of love in Guatemala took shape in Mexico.",
+            "What started with washing feet became a ministry. Over the past years we have brought that same service of dignity, care, and hope to communities in Chihuahua, Ciudad Juárez, and beyond."
+        ]
+    },
+    "lideres": {
+        "title": "Tomorrow's Leaders",
+        "content": [
+            "One of the pillars of Pies Contentos is the team of leaders and volunteers who make every event possible.",
+            "These young people and adults give their time and hearts to serve, inspiring the next generation and multiplying our impact in the communities we reach."
+        ]
+    },
+    "unaDecada": {
+        "title": "A Decade of Impact",
+        "items": [
+            "Through the generosity of our donors and volunteers, we continue to grow.",
+            "Served more than 6,000 children with shoes, socks, and essential items.",
+            "Provided resources and hope to families in vulnerable situations.",
+            "Connected with communities across the state of Chihuahua and beyond.",
+            "Built a community of volunteers and leaders who carry the message of love and service.",
+            "Every action counts."
         ]
     },
     "team": {
@@ -85,7 +144,8 @@
         "member1": { "name": "Saúl", "role": "President", "bio": "As part of the management team at Pies Contentos México, my work over the last few years has focused on researching the various marginalized areas around Ciudad Juárez. These areas, identified through a census, will be selected as the venues for the Pies Contentos event.", "imageUrl": "/team/saul.webp" },
         "member2": { "name": "Christine", "role": "Regional Director, Chihuahua", "bio": "I'm responsible for coordinating events that have been running for 10 years, as well as leading and supporting the volunteers who make this ministry possible. I've had the privilege of participating in events in various cities, including Ciudad Juárez, Meoqui, Villa Juárez, and Chihuahua.", "imageUrl": "/team/Christine.webp" },
         "member3": { "name": "Daniela","role": "Coordinator of Student Projects" ,"bio": "I've been a part of Pies Contentos for 6 years, serving as both an assistant and a leader in various areas of the event. This experience has allowed me to grow personally and professionally, always committed to the well-being of the community.I currently collaborate in coordinating the scholarship program, focusing on ensuring that more young people and children", "imageUrl": "/team/Daniela.webp" },
-        "member4": { "name": "Rubén", "role": "Outreach Coordinator", "bio": "I'm Rubén. As part of the Pies Contentos ministry since its beginnings, I have been involved in its operations from Ciudad Juárez. My work focuses on contacting sponsors, administrative planning, and everything involved in establishing strong connections with new donors and church partners for future events.", "imageUrl": "/team/ruben.webp" }
+        "member4": { "name": "Rubén Hernández", "role": "Outreach Coordinator", "bio": "I'm Rubén. As part of the Pies Contentos ministry since its beginnings, I have been involved in its operations from Ciudad Juárez. My work focuses on contacting sponsors, administrative planning, and everything involved in establishing strong connections with new donors and church partners for future events.", "imageUrl": "/team/rubenHernandez.webp" },
+        "member5": { "name": "Ruben Estrada", "role": "Founder", "bio": "I am part of the Pies Contentos team, actively supporting initiatives that strengthen our work and benefit the communities we serve.", "imageUrl": "/team/ruben.webp" }
     },
     "visionMission": {
         "title": "Our Vision & Mission",
@@ -114,6 +174,23 @@
     "title": "Coming Soon!",
     "message": "We're working hard to bring you something amazing. Stay tuned!",
     "backToHome": "Back to Homepage"
+  },
+  "donatePage": {
+    "hero": {
+      "badge": "Make a Difference",
+      "title": "Support Our Mission",
+      "subtitle": "Your donation helps us provide shoes, education, and hope to children in need."
+    },
+    "donationInfo": {
+      "title": "Donation Information",
+      "imageAlt": "Donation account information and details"
+    },
+    "cta": {
+      "title": "Other Ways to Help",
+      "subtitle": "Beyond donations, there are many ways you can support our cause and make a difference in children's lives.",
+      "volunteerButton": "Become a Volunteer",
+      "contactButton": "Contact Us"
+    }
   },
   "notFound": {
     "errorCode": "404",
@@ -270,17 +347,17 @@
     "events": {
       "backToSchool": {
         "title": "Back to School Drive",
-        "date": "August 15, 2025",
+        "date": "August 16, 2025",
         "location": "Community Center",
         "description": "Providing shoes and school supplies for 200+ children",
-        "impact": "200 children"
+        "impact": "350 children"
       },
       "winterWarmth": {
         "title": "Winter Warmth Campaign",
         "date": "December 10, 2025",
         "location": "Downtown Park",
         "description": "Warm socks and winter boots distribution",
-        "impact": "150 families"
+        "impact": "500 children"
       },
       "springFestival": {
         "title": "Spring Festival",
@@ -371,10 +448,10 @@
   },
   "upcomingEvent": {
     "title": "Upcoming Event",
-    "date": "August 15, 2025",
+    "date": "August 16, 2025",
     "location": "Primaría Ramón López Pérez",
-    "description": "Providing shoes and school supplies for 200+ children",
-    "impact": "200 children will benefit",
+    "description": "Providing shoes and school supplies for 350+ children",
+    "impact": "350 children will benefit",
     "impactStatement": "💝 Every donation helps us provide quality footwear and essential items to children in need."
   }
 }

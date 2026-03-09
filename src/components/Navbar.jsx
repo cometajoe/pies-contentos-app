@@ -22,11 +22,11 @@ const Navbar = () => {
 
   const navLinks = [
     { name: t('navbar.home'), href: '/' }, // Es bueno tener un enlace 'home' explícito también
-    { name: t('navbar.about'), href: 'about-us' },
-    { name: t('navbar.getInvolved'), href: 'get-involved' },
-    { name: t('navbar.ourWork'), href: 'our-work' },   
-    { name: t('navbar.events'), href: 'events' },
-    { name: t('navbar.contact'), href: 'contact-us' },
+    { name: t('navbar.about'), href: '/about-us' },
+    { name: t('navbar.getInvolved'), href: '/get-involved' },
+    { name: t('navbar.ourWork'), href: '/our-work' },   
+    { name: t('navbar.events'), href: '/events' },
+    { name: t('navbar.contact'), href: '/contact-us' },
   ];
 
   const toggleMobileMenu = () => {
@@ -67,7 +67,7 @@ const Navbar = () => {
           <div className="hidden md:flex md:items-center md:ml-auto md:space-x-3">
             <LanguageSwitcher />
             <a
-              href="#donate"
+              href="/donate"
               className="inline-flex items-center px-4 py-2 text-sm font-semibold text-white bg-sky-600 hover:bg-sky-700 rounded-lg shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 transition-all duration-150 transform hover:scale-105"
             >
               {/* Icono de corazón (opcional) */}

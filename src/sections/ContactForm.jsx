@@ -64,15 +64,15 @@ const handleSubmit = async (e) => {
   };
 
   const contactInfo = [
-    {
-      icon: MapPin,
-      title: 'Dirección',
-      content: 'Brasil 776, Ex Hipódromo, 32040 Juárez, Chih.',
-    },
+    // {
+    //   icon: MapPin,
+    //   title: 'Dirección',
+    //   content: 'Brasil 776, Ex Hipódromo, 32040 Juárez, Chih.',
+    // },
     {
       icon: Mail,
       title: 'Email',
-      content: 'pies.contentos.pc@gmail.com',
+      content: 'hola@piescontentosmx.org',
     },
     {
       icon: Phone,

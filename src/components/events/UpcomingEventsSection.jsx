@@ -3,7 +3,7 @@ import { Calendar, MapPin } from 'lucide-react';
 
 const eventImages = [
   '/events/back_to_school_2025.jpeg', // Use the provided image for the first event
-  null, // Placeholder for coming soon
+  '/events/agosto.webp', // Placeholder for coming soon
   null, // Placeholder for coming soon
 ];
 

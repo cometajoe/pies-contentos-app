@@ -7,19 +7,19 @@ import { Mail, Linkedin, Twitter, ArrowUpRight } from 'lucide-react';
 
 
 // Minimal version with subtle effects
-const TeamMemberCardMinimal = ({ member, index }) => {
+const TeamMemberCardMinimal = ({ member, index, className = '' }) => {
   const [isHovered, setIsHovered] = useState(false);
   
   return (
     <motion.div 
-      className="group relative bg-white rounded-3xl shadow-lg overflow-hidden transform-gpu"
+      className={`group relative bg-white rounded-3xl shadow-lg overflow-hidden transform-gpu flex flex-col min-h-0 ${className}`.trim()}
       variants={cardVariants}
       whileHover="hover"
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
       style={{ perspective: "1000px" }}
     >
-      <div className="relative p-8 text-center">
+      <div className="relative p-8 text-center flex-1 flex flex-col min-h-0">
         <div className="relative mb-6">
           <motion.div
             className="w-32 h-32 xl:w-36 xl:h-36 mx-auto rounded-full overflow-hidden shadow-xl ring-4 ring-white ring-offset-4 ring-offset-slate-50 group-hover:ring-slate-100 group-hover:shadow-2xl transition-all duration-300"
